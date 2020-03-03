@@ -1,0 +1,649 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD19\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">30.12.2019</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">16:26:14</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:05</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc" class="file"><acronym title="C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc">C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">75</td></tr>
+</table>
+</td>
+</table><a name="IDRIA5DWBFTTUJBMBSSR4QUVXRVYZLN4VGWKNIAL4DNIWXTR4FO5O"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDASIW1DZ1F2LYKZ4XLKHMKF5OIYKRKVX1T4DYCEC02ARNZOBXA5N">Clearance Constraint (Gap=3.5mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDF0R5HDW2NGFLD0Y4S20SVRE23DQ4R2WRP1VSIEDZKV24XWTOEZNB">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDS0GCKCVH1GAYFI3C0FKNPZ0KWNOQ30YH0MKGN5CHJODRNZ4GO0DM">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">28</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQ0ZOYEBLO4H4IQ25O1W1TYJMACHOY4LLHVJLU2BV0PKZRH0GDCQJ">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDICNBOFPSGXG5OJJLT3Q2GHBQECRKXY0ESUY4MWDITDQZX0UJWASF">Width Constraint (Min=3.5mil) (Max=30mil) (Preferred=10mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQBWSZWCE4ZG5EC3WRI43EUAGWPISG0J3JCNN5OCNMCWAJFAPNRJF">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLLF0GRYCPS41CQ3Q25OLUWM5SDFEQZPVLFYH3PFPLSZSWRDBHQFP">Hole Size Constraint (Min=7.874mil) (Max=248.031mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDIDUD12CVY2C2BK4EKQBEJUG5CDJXXSKSDB0LB3D2Y4NL11DRENQ">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLCZNYJ2I4EBZMQ1YMF00L2KZDOQ5FJX3D3YYSBBRVELQRPMH3EJK">Minimum Solder Mask Sliver (Gap=3.5mil) (All),(All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID40SDLZOMPCITE2NNTWBB1PMS3ISQ1ZCQHTZSR2V0DHJYHFTVJLE">Silk To Solder Mask (Clearance=0mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCCLSKJORJY0RI5KVJYR42HRQLGUNBCOMHESHGPGGSZNJ4P2RJHL">Silk to Silk (Clearance=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLJ0BMFD30XFPGOUVS32FVQU5JYECXUW1KEGCSPW3HZIE1FAMOKC">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">5</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUAFR3BVQTLJYB52FJICPNTZLXK1TLS5W0AONOECSRUUYWYQMMIP">Board Clearance Constraint (Gap=0mil) (All)</a></td>
+<td class="column2">21</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQOXHM1VUZBPMPBIK1GO5WN25KL3AEFL5M4SSDCPXKK2Y55QSPN4I">Board Clearance Constraint (Gap=0mil) (OnLayer('Top Overlay') or OnLayer('Bottom Overlay'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHCINSGCBORVZZWA22CMM0AB2IALFEM22YANZ2MDVH0RI2PXEDSM">Matched Lengths(Tolerance=10mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRN0VDVX2ADXZEYNXCKPHUKDXNHFD5RNRBOBPHTDPSHJQOEQFKX5">Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power'))</a></td>
+<td class="column2">7</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHFNEKI53J1YOLS0TQDRIT2KP2K2TLET0T15WH5DBG11ED1WYLSYJ">Room U_AnalogConnector (Bounding Region = (5350mil, 1300.071mil, 6542.559mil, 5114.3mil) (InComponentClass('U_AnalogConnector'))</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOIVY4CMU35XEBZ1DLCLBHQIVPP4ZU4WNR102HPJTEKGCMPHHDYDJ">Room U_CarrierConnector (Bounding Region = (240.012mil, 2274.028mil, 1156.496mil, 4084.398mil) (InComponentClass('U_CarrierConnector'))</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYFZ5LKJUG0OXNNYVCNQIF1GWVDTAPMWPOZUYNDKNHT413DT25L5I">Room ADC3 (Bounding Region = (2159.488mil, 2102.165mil, 2830.039mil, 2522.716mil) (InComponentClass('ADC3'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2VKACD3O44MRCEZJ5C1AGKH25L5DMQOVLGBZTWGZ5VTIIQEPDAPB">Room ADC1 (Bounding Region = (2164.488mil, 3277.165mil, 2830.039mil, 3697.716mil) (InComponentClass('ADC1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSGXPZHHWPR5ELXJNDJHWGYOF3EHNCLDTSIOKUQJTGR3JZZDJ542D">Room ADC2 (Bounding Region = (2809.488mil, 1737.52mil, 3475.039mil, 2158.071mil) (InComponentClass('ADC2'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAIUUMZWAQORVFNSH5CICXODDRKZPCR3O34WHTGOBLZUAOHVU4JD">Room ADC6 (Bounding Region = (2154.488mil, 3967.165mil, 2820.039mil, 4387.716mil) (InComponentClass('ADC6'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDE1HMFK0S5WP51SHNIW23Q2D3E50QVT0Q2ODNCYUT3JB1CFCXLM">Room ADC8 (Bounding Region = (2779.488mil, 4342.165mil, 3440.039mil, 4762.716mil) (InComponentClass('ADC8'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQ32ROOO45JXIJOF1OBSME0TVWBP3YE1KXPWRRUO5LQZYTR1OPTLP">Room ADC7 (Bounding Region = (2159.488mil, 2782.165mil, 2830.039mil, 3202.716mil) (InComponentClass('ADC7'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDU51WOZKMEDIECZWC41CJZPN3AKLXLMKTQNNZHLERJEDEOMP35IF">Room ADC5 (Bounding Region = (2813.488mil, 2477.165mil, 3475.039mil, 2897.716mil) (InComponentClass('ADC5'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVJYFHTQWCLYSI04DSSYK2TUZEHG0TJBJYTV4V2CWRBHNNXGDHV2N">Room OpAmp2 (Bounding Region = (3704.961mil, 3191.89mil, 5156.26mil, 4657.913mil) (InComponentClass('OpAmp2'))</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZHROPCOKQE00EWYRP4ZCZ42JDCCB0LVJB4ZK4KB3IOPK2CFNI0PN">Room OpAmp1 (Bounding Region = (3704.449mil, 1729.488mil, 5156.26mil, 3190.512mil) (InComponentClass('OpAmp1'))</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3H1XVYEYIMOAB2FTGCXI3VMV3FQAINYPBVS3ALBEWNLTQYQCTNDB">Room ADC4 (Bounding Region = (2789.488mil, 3687.362mil, 3455.039mil, 4107.913mil) (InComponentClass('ADC4'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDEPAFKCAW2RGPDKSHXOT0FWZBWJVTD4J5LRPJLGK5ZOG5CHVNMOZI">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">75</td>
+</tr>
+</table><br><a name="IDS0GCKCVH1GAYFI3C0FKNPZ0KWNOQ30YH0MKGN5CHJODRNZ4GO0DM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6787.173mil|Location2.X=7119.827mil|Location1.Y=1398.268mil|Location2.Y=1453.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6787.173mil|Location2.X=7119.827mil|Location1.Y=1398.268mil|Location2.Y=1453.906mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Pad C58-1(5992mil,206.087mil) on Top Layer And Pad C59-1(6245mil,206.087mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6787.173mil|Location2.X=6866.827mil|Location1.Y=1398.268mil|Location2.Y=1954.291mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6787.173mil|Location2.X=6866.827mil|Location1.Y=1398.268mil|Location2.Y=1954.291mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Pad C58-1(5992mil,206.087mil) on Top Layer And Pad C61A-2(5995mil,716.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6485.315mil|Location2.X=6866.827mil|Location1.Y=1353.315mil|Location2.Y=1453.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6485.315mil|Location2.X=6866.827mil|Location1.Y=1353.315mil|Location2.Y=1453.906mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Pad TP18-1(5674mil,157mil) on Top Layer And Pad C58-1(5992mil,206.087mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6787.173mil|Location2.X=7119.827mil|Location1.Y=1284.094mil|Location2.Y=1339.732mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6787.173mil|Location2.X=7119.827mil|Location1.Y=1284.094mil|Location2.Y=1339.732mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C58-2(5992mil,91.913mil) on Top Layer And Pad C59-2(6245mil,91.913mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6787.173mil|Location2.X=6866.827mil|Location1.Y=1284.094mil|Location2.Y=1893.268mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6787.173mil|Location2.X=6866.827mil|Location1.Y=1284.094mil|Location2.Y=1893.268mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C58-2(5992mil,91.913mil) on Top Layer And Pad C61A-1(5995mil,655.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6485.315mil|Location2.X=6853.685mil|Location1.Y=1857.709mil|Location2.Y=1893.268mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6485.315mil|Location2.X=6853.685mil|Location1.Y=1857.709mil|Location2.Y=1893.268mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C60A-1(5674mil,655.488mil) on Top Layer And Pad C61A-1(5995mil,655.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6114.559mil|Location2.X=6532.685mil|Location1.Y=1857.709mil|Location2.Y=1943mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6114.559mil|Location2.X=6532.685mil|Location1.Y=1857.709mil|Location2.Y=1943mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad X2-5(5312.559mil,690mil) on Multi-Layer And Pad C60A-1(5674mil,655.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6485.315mil|Location2.X=6532.685mil|Location1.Y=1918.732mil|Location2.Y=2483.291mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6485.315mil|Location2.X=6532.685mil|Location1.Y=1918.732mil|Location2.Y=2483.291mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Pad C60A-2(5674mil,716.512mil) on Top Layer And Pad C60B-2(5674mil,1245.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6485.315mil|Location2.X=6853.685mil|Location1.Y=1918.732mil|Location2.Y=1954.291mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6485.315mil|Location2.X=6853.685mil|Location1.Y=1918.732mil|Location2.Y=1954.291mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Pad C60A-2(5674mil,716.512mil) on Top Layer And Pad C61A-2(5995mil,716.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6485.315mil|Location2.X=6853.685mil|Location1.Y=2386.709mil|Location2.Y=2422.268mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6485.315mil|Location2.X=6853.685mil|Location1.Y=2386.709mil|Location2.Y=2422.268mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C60B-1(5674mil,1184.488mil) on Top Layer And Pad C61B-1(5995mil,1184.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6113.756mil|Location2.X=6532.685mil|Location1.Y=2386.709mil|Location2.Y=2611.244mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6113.756mil|Location2.X=6532.685mil|Location1.Y=2386.709mil|Location2.Y=2611.244mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J1-S1(5330mil,1340mil) on Multi-Layer And Pad C60B-1(5674mil,1184.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6485.315mil|Location2.X=6853.685mil|Location1.Y=2447.732mil|Location2.Y=2483.291mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6485.315mil|Location2.X=6853.685mil|Location1.Y=2447.732mil|Location2.Y=2483.291mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Pad C60B-2(5674mil,1245.512mil) on Top Layer And Pad C61B-2(5995mil,1245.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=6532.685mil|Location1.Y=2413.189mil|Location2.Y=2483.291mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=6532.685mil|Location1.Y=2413.189mil|Location2.Y=2483.291mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Via (4210mil,1205mil) from Top Layer to Bottom Layer And Pad C60B-2(5674mil,1245.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6806.315mil|Location2.X=7164.685mil|Location1.Y=1857.709mil|Location2.Y=1893.268mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6806.315mil|Location2.X=7164.685mil|Location1.Y=1857.709mil|Location2.Y=1893.268mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C61A-1(5995mil,655.488mil) on Top Layer And Pad C62A-1(6306mil,655.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6806.315mil|Location2.X=7164.685mil|Location1.Y=1918.732mil|Location2.Y=1954.291mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6806.315mil|Location2.X=7164.685mil|Location1.Y=1918.732mil|Location2.Y=1954.291mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Pad C61A-2(5995mil,716.512mil) on Top Layer And Pad C62A-2(6306mil,716.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6806.315mil|Location2.X=7164.685mil|Location1.Y=2386.709mil|Location2.Y=2422.268mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6806.315mil|Location2.X=7164.685mil|Location1.Y=2386.709mil|Location2.Y=2422.268mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C61B-1(5995mil,1184.488mil) on Top Layer And Pad C62B-1(6306mil,1184.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6806.315mil|Location2.X=7164.685mil|Location1.Y=2447.732mil|Location2.Y=2483.291mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6806.315mil|Location2.X=7164.685mil|Location1.Y=2447.732mil|Location2.Y=2483.291mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Pad C61B-2(5995mil,1245.512mil) on Top Layer And Pad C62B-2(6306mil,1245.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7117.315mil|Location2.X=7485.685mil|Location1.Y=1857.709mil|Location2.Y=1893.268mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7117.315mil|Location2.X=7485.685mil|Location1.Y=1857.709mil|Location2.Y=1893.268mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C62A-1(6306mil,655.488mil) on Top Layer And Pad C63A-1(6627mil,655.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7117.315mil|Location2.X=7485.685mil|Location1.Y=1918.732mil|Location2.Y=1954.291mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7117.315mil|Location2.X=7485.685mil|Location1.Y=1918.732mil|Location2.Y=1954.291mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Pad C62A-2(6306mil,716.512mil) on Top Layer And Pad C63A-2(6627mil,716.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7117.315mil|Location2.X=7485.685mil|Location1.Y=2386.709mil|Location2.Y=2422.268mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7117.315mil|Location2.X=7485.685mil|Location1.Y=2386.709mil|Location2.Y=2422.268mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C62B-1(6306mil,1184.488mil) on Top Layer And Pad C63B-1(6627mil,1184.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7117.315mil|Location2.X=7485.685mil|Location1.Y=2447.732mil|Location2.Y=2483.291mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7117.315mil|Location2.X=7485.685mil|Location1.Y=2447.732mil|Location2.Y=2483.291mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Pad C62B-2(6306mil,1245.512mil) on Top Layer And Pad C63B-2(6627mil,1245.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=5056.811mil|Location1.Y=2413.189mil|Location2.Y=2686.811mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=5056.811mil|Location1.Y=2413.189mil|Location2.Y=2686.811mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Via (4210mil,1205mil) from Top Layer to Bottom Layer And Via (4210mil,1455mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=5056.811mil|Location1.Y=2158.189mil|Location2.Y=2436.811mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=5056.811mil|Location1.Y=2158.189mil|Location2.Y=2436.811mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Via (4210mil,950mil) from Top Layer to Bottom Layer And Via (4210mil,1205mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=5056.811mil|Location1.Y=2663.189mil|Location2.Y=2941.811mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=5056.811mil|Location1.Y=2663.189mil|Location2.Y=2941.811mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Via (4210mil,1455mil) from Top Layer to Bottom Layer And Via (4210mil,1710mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=5056.811mil|Location1.Y=2918.189mil|Location2.Y=3256.811mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=5056.811mil|Location1.Y=2918.189mil|Location2.Y=3256.811mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Via (4210mil,1710mil) from Top Layer to Bottom Layer And Via (4210mil,2025mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=5056.811mil|Location1.Y=3233.189mil|Location2.Y=3511.811mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=5056.811mil|Location1.Y=3233.189mil|Location2.Y=3511.811mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Via (4210mil,2025mil) from Top Layer to Bottom Layer And Via (4210mil,2280mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=5056.811mil|Location1.Y=3488.189mil|Location2.Y=3766.811mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=5056.811mil|Location1.Y=3488.189mil|Location2.Y=3766.811mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Via (4210mil,2280mil) from Top Layer to Bottom Layer And Via (4210mil,2535mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=5056.811mil|Location1.Y=3743.189mil|Location2.Y=4021.811mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5033.189mil|Location2.X=5056.811mil|Location1.Y=3743.189mil|Location2.Y=4021.811mil|Absolute=True">Un-Routed Net Constraint: Net VCC- Between Via (4210mil,2535mil) from Top Layer to Bottom Layer And Via (4210mil,2790mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDLCZNYJ2I4EBZMQ1YMF00L2KZDOQ5FJX3D3YYSBBRVELQRPMH3EJK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=3.5mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4075.145mil|Location2.X=4079.895mil|Location1.Y=1667.125mil|Location2.Y=1671.875mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4075.145mil|Location2.X=4079.895mil|Location1.Y=1667.125mil|Location2.Y=1671.875mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.252mil &lt; 3.5mil) Between Via (3242.52mil,437mil) from Top Layer to Bottom Layer And Via (3242.52mil,462mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [1.252mil] / [Bottom Solder] Mask Sliver [1.252mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4107.625mil|Location2.X=4112.375mil|Location1.Y=1667.125mil|Location2.Y=1671.875mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4107.625mil|Location2.X=4112.375mil|Location1.Y=1667.125mil|Location2.Y=1671.875mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.252mil &lt; 3.5mil) Between Via (3275mil,437mil) from Top Layer to Bottom Layer And Via (3275mil,462mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [1.252mil] / [Bottom Solder] Mask Sliver [1.252mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDLJ0BMFD30XFPGOUVS32FVQU5JYECXUW1KEGCSPW3HZIE1FAMOKC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=941.5mil|Location2.X=986.858mil|Location1.Y=4481.5mil|Location2.Y=4551.979mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=941.5mil|Location2.X=986.858mil|Location1.Y=4481.5mil|Location2.Y=4551.979mil|Absolute=True">Net Antennae: Track (125mil,2690mil)(125mil,3280mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5029.689mil|Location2.X=5068.105mil|Location1.Y=2914.689mil|Location2.Y=2973.442mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5029.689mil|Location2.X=5068.105mil|Location1.Y=2914.689mil|Location2.Y=2973.442mil|Absolute=True">Net Antennae: Via (4210mil,1710mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5029.689mil|Location2.X=5068.105mil|Location1.Y=3229.689mil|Location2.Y=3288.442mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5029.689mil|Location2.X=5068.105mil|Location1.Y=3229.689mil|Location2.Y=3288.442mil|Absolute=True">Net Antennae: Via (4210mil,2025mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5029.689mil|Location2.X=5068.105mil|Location1.Y=3484.689mil|Location2.Y=3543.442mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5029.689mil|Location2.X=5068.105mil|Location1.Y=3484.689mil|Location2.Y=3543.442mil|Absolute=True">Net Antennae: Via (4210mil,2280mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5029.689mil|Location2.X=5068.105mil|Location1.Y=3739.689mil|Location2.Y=3798.442mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5029.689mil|Location2.X=5068.105mil|Location1.Y=3739.689mil|Location2.Y=3798.442mil|Absolute=True">Net Antennae: Via (4210mil,2535mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDUAFR3BVQTLJYB52FJICPNTZLXK1TLS5W0AONOECSRUUYWYQMMIP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6823.167mil|Location2.X=6830.833mil|Location1.Y=1422.253mil|Location2.Y=1429.92mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6823.167mil|Location2.X=6830.833mil|Location1.Y=1422.253mil|Location2.Y=1429.92mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C58-1(5992mil,206.087mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6823.167mil|Location2.X=6830.833mil|Location1.Y=1308.08mil|Location2.Y=1315.747mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6823.167mil|Location2.X=6830.833mil|Location1.Y=1308.08mil|Location2.Y=1315.747mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C58-2(5992mil,91.913mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7076.167mil|Location2.X=7083.833mil|Location1.Y=1422.253mil|Location2.Y=1429.92mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7076.167mil|Location2.X=7083.833mil|Location1.Y=1422.253mil|Location2.Y=1429.92mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C59-1(6245mil,206.087mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7076.167mil|Location2.X=7083.833mil|Location1.Y=1308.08mil|Location2.Y=1315.747mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7076.167mil|Location2.X=7083.833mil|Location1.Y=1308.08mil|Location2.Y=1315.747mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C59-2(6245mil,91.913mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6505.167mil|Location2.X=6512.833mil|Location1.Y=1871.655mil|Location2.Y=1879.322mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6505.167mil|Location2.X=6512.833mil|Location1.Y=1871.655mil|Location2.Y=1879.322mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C60A-1(5674mil,655.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6505.167mil|Location2.X=6512.833mil|Location1.Y=1932.678mil|Location2.Y=1940.345mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6505.167mil|Location2.X=6512.833mil|Location1.Y=1932.678mil|Location2.Y=1940.345mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C60A-2(5674mil,716.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6505.167mil|Location2.X=6512.833mil|Location1.Y=2400.655mil|Location2.Y=2408.322mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6505.167mil|Location2.X=6512.833mil|Location1.Y=2400.655mil|Location2.Y=2408.322mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C60B-1(5674mil,1184.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6505.167mil|Location2.X=6512.833mil|Location1.Y=2461.678mil|Location2.Y=2469.345mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6505.167mil|Location2.X=6512.833mil|Location1.Y=2461.678mil|Location2.Y=2469.345mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C60B-2(5674mil,1245.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6826.167mil|Location2.X=6833.833mil|Location1.Y=1871.655mil|Location2.Y=1879.322mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6826.167mil|Location2.X=6833.833mil|Location1.Y=1871.655mil|Location2.Y=1879.322mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C61A-1(5995mil,655.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6826.167mil|Location2.X=6833.833mil|Location1.Y=1932.678mil|Location2.Y=1940.345mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6826.167mil|Location2.X=6833.833mil|Location1.Y=1932.678mil|Location2.Y=1940.345mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C61A-2(5995mil,716.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6826.167mil|Location2.X=6833.833mil|Location1.Y=2400.655mil|Location2.Y=2408.322mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6826.167mil|Location2.X=6833.833mil|Location1.Y=2400.655mil|Location2.Y=2408.322mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C61B-1(5995mil,1184.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6826.167mil|Location2.X=6833.833mil|Location1.Y=2461.678mil|Location2.Y=2469.345mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6826.167mil|Location2.X=6833.833mil|Location1.Y=2461.678mil|Location2.Y=2469.345mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C61B-2(5995mil,1245.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7137.167mil|Location2.X=7144.833mil|Location1.Y=1871.655mil|Location2.Y=1879.322mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7137.167mil|Location2.X=7144.833mil|Location1.Y=1871.655mil|Location2.Y=1879.322mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C62A-1(6306mil,655.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7137.167mil|Location2.X=7144.833mil|Location1.Y=1932.678mil|Location2.Y=1940.345mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7137.167mil|Location2.X=7144.833mil|Location1.Y=1932.678mil|Location2.Y=1940.345mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C62A-2(6306mil,716.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7137.167mil|Location2.X=7144.833mil|Location1.Y=2400.655mil|Location2.Y=2408.322mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7137.167mil|Location2.X=7144.833mil|Location1.Y=2400.655mil|Location2.Y=2408.322mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C62B-1(6306mil,1184.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7137.167mil|Location2.X=7144.833mil|Location1.Y=2461.678mil|Location2.Y=2469.345mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7137.167mil|Location2.X=7144.833mil|Location1.Y=2461.678mil|Location2.Y=2469.345mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C62B-2(6306mil,1245.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7458.167mil|Location2.X=7465.833mil|Location1.Y=1871.655mil|Location2.Y=1879.322mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7458.167mil|Location2.X=7465.833mil|Location1.Y=1871.655mil|Location2.Y=1879.322mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C63A-1(6627mil,655.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7458.167mil|Location2.X=7465.833mil|Location1.Y=1932.678mil|Location2.Y=1940.345mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7458.167mil|Location2.X=7465.833mil|Location1.Y=1932.678mil|Location2.Y=1940.345mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C63A-2(6627mil,716.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7458.167mil|Location2.X=7465.833mil|Location1.Y=2400.655mil|Location2.Y=2408.322mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7458.167mil|Location2.X=7465.833mil|Location1.Y=2400.655mil|Location2.Y=2408.322mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C63B-1(6627mil,1184.488mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7458.167mil|Location2.X=7465.833mil|Location1.Y=2461.678mil|Location2.Y=2469.345mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7458.167mil|Location2.X=7465.833mil|Location1.Y=2461.678mil|Location2.Y=2469.345mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad C63B-2(6627mil,1245.512mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6505.167mil|Location2.X=6512.833mil|Location1.Y=1373.167mil|Location2.Y=1380.833mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6505.167mil|Location2.X=6512.833mil|Location1.Y=1373.167mil|Location2.Y=1380.833mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 10mil) Between Board Edge And Pad TP18-1(5674mil,157mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDRN0VDVX2ADXZEYNXCKPHUKDXNHFD5RNRBOBPHTDPSHJQOEQFKX5"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=845.02mil|Location2.X=4244.016mil|Location1.Y=1338.071mil|Location2.Y=5051.496mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=845.02mil|Location2.X=4244.016mil|Location1.Y=1338.071mil|Location2.Y=5051.496mil|Absolute=True">Room Definition: Between Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power')) And SMT Small Component C25-100nF (3348.976mil,454mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=845.02mil|Location2.X=4244.843mil|Location1.Y=1338.071mil|Location2.Y=5051.496mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=845.02mil|Location2.X=4244.843mil|Location1.Y=1338.071mil|Location2.Y=5051.496mil|Absolute=True">Room Definition: Between Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power')) And SMT Small Component C26-47µF (3317.913mil,369mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=845.02mil|Location2.X=6873.654mil|Location1.Y=1277.071mil|Location2.Y=5051.496mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=845.02mil|Location2.X=6873.654mil|Location1.Y=1277.071mil|Location2.Y=5051.496mil|Absolute=True">Room Definition: Between Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power')) And SMT Small Component C58-47µF (5992mil,149mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=845.02mil|Location2.X=7126.654mil|Location1.Y=1277.071mil|Location2.Y=5051.496mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=845.02mil|Location2.X=7126.654mil|Location1.Y=1277.071mil|Location2.Y=5051.496mil|Absolute=True">Room Definition: Between Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power')) And SMT Small Component C59-47µF (6245mil,149mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=845.02mil|Location2.X=4240.543mil|Location1.Y=1338.071mil|Location2.Y=5051.496mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=845.02mil|Location2.X=4240.543mil|Location1.Y=1338.071mil|Location2.Y=5051.496mil|Absolute=True">Room Definition: Between Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power')) And SMT Small Component R33-0R (3377mil,253mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=845.02mil|Location2.X=6540.496mil|Location1.Y=1338.071mil|Location2.Y=5051.496mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=845.02mil|Location2.X=6540.496mil|Location1.Y=1338.071mil|Location2.Y=5051.496mil|Absolute=True">Room Definition: Between Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power')) And SMT Small Component TP18-VCC (5674mil,157mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=845.02mil|Location2.X=4378.496mil|Location1.Y=1338.071mil|Location2.Y=5051.496mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=845.02mil|Location2.X=4378.496mil|Location1.Y=1338.071mil|Location2.Y=5051.496mil|Absolute=True">Room Definition: Between Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power')) And SMT Small Component TP19-VCOM (3512mil,362mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDHFNEKI53J1YOLS0TQDRIT2KP2K2TLET0T15WH5DBG11ED1WYLSYJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room U_AnalogConnector (Bounding Region = (5350mil, 1300.071mil, 6542.559mil, 5114.3mil) (InComponentClass('U_AnalogConnector'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5350mil|Location2.X=6542.559mil|Location1.Y=1300.071mil|Location2.Y=5114.3mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5350mil|Location2.X=6542.559mil|Location1.Y=1300.071mil|Location2.Y=5114.3mil|Absolute=True">Room Definition: Between Room U_AnalogConnector (Bounding Region = (5350mil, 1300.071mil, 6542.559mil, 5114.3mil) (InComponentClass('U_AnalogConnector')) And Small Component MH1-mounting hole 3,4mm (5400mil,157mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5350mil|Location2.X=6542.559mil|Location1.Y=1300.071mil|Location2.Y=5114.3mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5350mil|Location2.X=6542.559mil|Location1.Y=1300.071mil|Location2.Y=5114.3mil|Absolute=True">Room Definition: Between Room U_AnalogConnector (Bounding Region = (5350mil, 1300.071mil, 6542.559mil, 5114.3mil) (InComponentClass('U_AnalogConnector')) And Small Component MH2-mounting hole 3,4mm (5400mil,3718mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDOIVY4CMU35XEBZ1DLCLBHQIVPP4ZU4WNR102HPJTEKGCMPHHDYDJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room U_CarrierConnector (Bounding Region = (240.012mil, 2274.028mil, 1156.496mil, 4084.398mil) (InComponentClass('U_CarrierConnector'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=240.012mil|Location2.X=2838.543mil|Location1.Y=1801.929mil|Location2.Y=4084.398mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=240.012mil|Location2.X=2838.543mil|Location1.Y=1801.929mil|Location2.Y=4084.398mil|Absolute=True">Room Definition: Between Room U_CarrierConnector (Bounding Region = (240.012mil, 2274.028mil, 1156.496mil, 4084.398mil) (InComponentClass('U_CarrierConnector')) And SMT Small Component R1-100R (1975mil,640mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=240.012mil|Location2.X=2803.543mil|Location1.Y=2274.028mil|Location2.Y=4523.071mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=240.012mil|Location2.X=2803.543mil|Location1.Y=2274.028mil|Location2.Y=4523.071mil|Absolute=True">Room Definition: Between Room U_CarrierConnector (Bounding Region = (240.012mil, 2274.028mil, 1156.496mil, 4084.398mil) (InComponentClass('U_CarrierConnector')) And SMT Small Component R2-100R (1940mil,3245mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDVJYFHTQWCLYSI04DSSYK2TUZEHG0TJBJYTV4V2CWRBHNNXGDHV2N"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room OpAmp2 (Bounding Region = (3704.961mil, 3191.89mil, 5156.26mil, 4657.913mil) (InComponentClass('OpAmp2'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.961mil|Location2.X=6539.512mil|Location1.Y=2374.961mil|Location2.Y=4657.913mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.961mil|Location2.X=6539.512mil|Location1.Y=2374.961mil|Location2.Y=4657.913mil|Absolute=True">Room Definition: Between Room OpAmp2 (Bounding Region = (3704.961mil, 3191.89mil, 5156.26mil, 4657.913mil) (InComponentClass('OpAmp2')) And SMT Small Component C60B-100nF (5674mil,1215mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.961mil|Location2.X=6860.512mil|Location1.Y=2374.961mil|Location2.Y=4657.913mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.961mil|Location2.X=6860.512mil|Location1.Y=2374.961mil|Location2.Y=4657.913mil|Absolute=True">Room Definition: Between Room OpAmp2 (Bounding Region = (3704.961mil, 3191.89mil, 5156.26mil, 4657.913mil) (InComponentClass('OpAmp2')) And SMT Small Component C61B-100nF (5995mil,1215mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.961mil|Location2.X=7171.512mil|Location1.Y=2374.961mil|Location2.Y=4657.913mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.961mil|Location2.X=7171.512mil|Location1.Y=2374.961mil|Location2.Y=4657.913mil|Absolute=True">Room Definition: Between Room OpAmp2 (Bounding Region = (3704.961mil, 3191.89mil, 5156.26mil, 4657.913mil) (InComponentClass('OpAmp2')) And SMT Small Component C62B-100nF (6306mil,1215mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.961mil|Location2.X=7492.512mil|Location1.Y=2374.961mil|Location2.Y=4657.913mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.961mil|Location2.X=7492.512mil|Location1.Y=2374.961mil|Location2.Y=4657.913mil|Absolute=True">Room Definition: Between Room OpAmp2 (Bounding Region = (3704.961mil, 3191.89mil, 5156.26mil, 4657.913mil) (InComponentClass('OpAmp2')) And SMT Small Component C63B-100nF (6627mil,1215mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDZHROPCOKQE00EWYRP4ZCZ42JDCCB0LVJB4ZK4KB3IOPK2CFNI0PN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room OpAmp1 (Bounding Region = (3704.449mil, 1729.488mil, 5156.26mil, 3190.512mil) (InComponentClass('OpAmp1'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.449mil|Location2.X=6539.512mil|Location1.Y=1729.488mil|Location2.Y=3190.512mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.449mil|Location2.X=6539.512mil|Location1.Y=1729.488mil|Location2.Y=3190.512mil|Absolute=True">Room Definition: Between Room OpAmp1 (Bounding Region = (3704.449mil, 1729.488mil, 5156.26mil, 3190.512mil) (InComponentClass('OpAmp1')) And SMT Small Component C60A-100nF (5674mil,686mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.449mil|Location2.X=6860.512mil|Location1.Y=1729.488mil|Location2.Y=3190.512mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.449mil|Location2.X=6860.512mil|Location1.Y=1729.488mil|Location2.Y=3190.512mil|Absolute=True">Room Definition: Between Room OpAmp1 (Bounding Region = (3704.449mil, 1729.488mil, 5156.26mil, 3190.512mil) (InComponentClass('OpAmp1')) And SMT Small Component C61A-100nF (5995mil,686mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.449mil|Location2.X=7171.512mil|Location1.Y=1729.488mil|Location2.Y=3190.512mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.449mil|Location2.X=7171.512mil|Location1.Y=1729.488mil|Location2.Y=3190.512mil|Absolute=True">Room Definition: Between Room OpAmp1 (Bounding Region = (3704.449mil, 1729.488mil, 5156.26mil, 3190.512mil) (InComponentClass('OpAmp1')) And SMT Small Component C62A-100nF (6306mil,686mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.449mil|Location2.X=7492.512mil|Location1.Y=1729.488mil|Location2.Y=3190.512mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3704.449mil|Location2.X=7492.512mil|Location1.Y=1729.488mil|Location2.Y=3190.512mil|Absolute=True">Room Definition: Between Room OpAmp1 (Bounding Region = (3704.449mil, 1729.488mil, 5156.26mil, 3190.512mil) (InComponentClass('OpAmp1')) And SMT Small Component C63A-100nF (6627mil,686mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

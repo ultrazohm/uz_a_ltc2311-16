@@ -1,0 +1,171 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3v02\UltraZohm_ADC.PcbDoc
+Date     : 30.12.2019
+Time     : 16:26:14
+
+Processing Rule : Clearance Constraint (Gap=3.5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net VCC- Between Pad C58-1(5992mil,206.087mil) on Top Layer And Pad C59-1(6245mil,206.087mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Pad C58-1(5992mil,206.087mil) on Top Layer And Pad C61A-2(5995mil,716.512mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Pad TP18-1(5674mil,157mil) on Top Layer And Pad C58-1(5992mil,206.087mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C58-2(5992mil,91.913mil) on Top Layer And Pad C59-2(6245mil,91.913mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C58-2(5992mil,91.913mil) on Top Layer And Pad C61A-1(5995mil,655.488mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C60A-1(5674mil,655.488mil) on Top Layer And Pad C61A-1(5995mil,655.488mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X2-5(5312.559mil,690mil) on Multi-Layer And Pad C60A-1(5674mil,655.488mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Pad C60A-2(5674mil,716.512mil) on Top Layer And Pad C60B-2(5674mil,1245.512mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Pad C60A-2(5674mil,716.512mil) on Top Layer And Pad C61A-2(5995mil,716.512mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C60B-1(5674mil,1184.488mil) on Top Layer And Pad C61B-1(5995mil,1184.488mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-S1(5330mil,1340mil) on Multi-Layer And Pad C60B-1(5674mil,1184.488mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Pad C60B-2(5674mil,1245.512mil) on Top Layer And Pad C61B-2(5995mil,1245.512mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Via (4210mil,1205mil) from Top Layer to Bottom Layer And Pad C60B-2(5674mil,1245.512mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C61A-1(5995mil,655.488mil) on Top Layer And Pad C62A-1(6306mil,655.488mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Pad C61A-2(5995mil,716.512mil) on Top Layer And Pad C62A-2(6306mil,716.512mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C61B-1(5995mil,1184.488mil) on Top Layer And Pad C62B-1(6306mil,1184.488mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Pad C61B-2(5995mil,1245.512mil) on Top Layer And Pad C62B-2(6306mil,1245.512mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C62A-1(6306mil,655.488mil) on Top Layer And Pad C63A-1(6627mil,655.488mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Pad C62A-2(6306mil,716.512mil) on Top Layer And Pad C63A-2(6627mil,716.512mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C62B-1(6306mil,1184.488mil) on Top Layer And Pad C63B-1(6627mil,1184.488mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Pad C62B-2(6306mil,1245.512mil) on Top Layer And Pad C63B-2(6627mil,1245.512mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Via (4210mil,1205mil) from Top Layer to Bottom Layer And Via (4210mil,1455mil) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Via (4210mil,950mil) from Top Layer to Bottom Layer And Via (4210mil,1205mil) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Via (4210mil,1455mil) from Top Layer to Bottom Layer And Via (4210mil,1710mil) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Via (4210mil,1710mil) from Top Layer to Bottom Layer And Via (4210mil,2025mil) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Via (4210mil,2025mil) from Top Layer to Bottom Layer And Via (4210mil,2280mil) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Via (4210mil,2280mil) from Top Layer to Bottom Layer And Via (4210mil,2535mil) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net VCC- Between Via (4210mil,2535mil) from Top Layer to Bottom Layer And Via (4210mil,2790mil) from Top Layer to Bottom Layer 
+Rule Violations :28
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=3.5mil) (Max=30mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=7.874mil) (Max=248.031mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=3.5mil) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (1.252mil < 3.5mil) Between Via (3242.52mil,437mil) from Top Layer to Bottom Layer And Via (3242.52mil,462mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [1.252mil] / [Bottom Solder] Mask Sliver [1.252mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (1.252mil < 3.5mil) Between Via (3275mil,437mil) from Top Layer to Bottom Layer And Via (3275mil,462mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [1.252mil] / [Bottom Solder] Mask Sliver [1.252mil]
+Rule Violations :2
+
+Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Track (125mil,2690mil)(125mil,3280mil) on Bottom Layer 
+   Violation between Net Antennae: Via (4210mil,1710mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (4210mil,2025mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (4210mil,2280mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (4210mil,2535mil) from Top Layer to Bottom Layer 
+Rule Violations :5
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C58-1(5992mil,206.087mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C58-2(5992mil,91.913mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C59-1(6245mil,206.087mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C59-2(6245mil,91.913mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C60A-1(5674mil,655.488mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C60A-2(5674mil,716.512mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C60B-1(5674mil,1184.488mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C60B-2(5674mil,1245.512mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C61A-1(5995mil,655.488mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C61A-2(5995mil,716.512mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C61B-1(5995mil,1184.488mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C61B-2(5995mil,1245.512mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C62A-1(6306mil,655.488mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C62A-2(6306mil,716.512mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C62B-1(6306mil,1184.488mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C62B-2(6306mil,1245.512mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C63A-1(6627mil,655.488mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C63A-2(6627mil,716.512mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C63B-1(6627mil,1184.488mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad C63B-2(6627mil,1245.512mil) on Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 10mil) Between Board Edge And Pad TP18-1(5674mil,157mil) on Top Layer 
+Rule Violations :21
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (OnLayer('Top Overlay') or OnLayer('Bottom Overlay'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power'))
+   Violation between Room Definition: Between Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power')) And SMT Small Component C25-100nF (3348.976mil,454mil) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power')) And SMT Small Component C26-47µF (3317.913mil,369mil) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power')) And SMT Small Component C58-47µF (5992mil,149mil) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power')) And SMT Small Component C59-47µF (6245mil,149mil) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power')) And SMT Small Component R33-0R (3377mil,253mil) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power')) And SMT Small Component TP18-VCC (5674mil,157mil) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (845.02mil, 1338.071mil, 2186.929mil, 5051.496mil) (InComponentClass('Power')) And SMT Small Component TP19-VCOM (3512mil,362mil) on Top Layer 
+Rule Violations :7
+
+Processing Rule : Room U_AnalogConnector (Bounding Region = (5350mil, 1300.071mil, 6542.559mil, 5114.3mil) (InComponentClass('U_AnalogConnector'))
+   Violation between Room Definition: Between Room U_AnalogConnector (Bounding Region = (5350mil, 1300.071mil, 6542.559mil, 5114.3mil) (InComponentClass('U_AnalogConnector')) And Small Component MH1-mounting hole 3,4mm (5400mil,157mil) on Top Layer 
+   Violation between Room Definition: Between Room U_AnalogConnector (Bounding Region = (5350mil, 1300.071mil, 6542.559mil, 5114.3mil) (InComponentClass('U_AnalogConnector')) And Small Component MH2-mounting hole 3,4mm (5400mil,3718mil) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Room U_CarrierConnector (Bounding Region = (240.012mil, 2274.028mil, 1156.496mil, 4084.398mil) (InComponentClass('U_CarrierConnector'))
+   Violation between Room Definition: Between Room U_CarrierConnector (Bounding Region = (240.012mil, 2274.028mil, 1156.496mil, 4084.398mil) (InComponentClass('U_CarrierConnector')) And SMT Small Component R1-100R (1975mil,640mil) on Top Layer 
+   Violation between Room Definition: Between Room U_CarrierConnector (Bounding Region = (240.012mil, 2274.028mil, 1156.496mil, 4084.398mil) (InComponentClass('U_CarrierConnector')) And SMT Small Component R2-100R (1940mil,3245mil) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Room ADC3 (Bounding Region = (2159.488mil, 2102.165mil, 2830.039mil, 2522.716mil) (InComponentClass('ADC3'))
+Rule Violations :0
+
+Processing Rule : Room ADC1 (Bounding Region = (2164.488mil, 3277.165mil, 2830.039mil, 3697.716mil) (InComponentClass('ADC1'))
+Rule Violations :0
+
+Processing Rule : Room ADC2 (Bounding Region = (2809.488mil, 1737.52mil, 3475.039mil, 2158.071mil) (InComponentClass('ADC2'))
+Rule Violations :0
+
+Processing Rule : Room ADC6 (Bounding Region = (2154.488mil, 3967.165mil, 2820.039mil, 4387.716mil) (InComponentClass('ADC6'))
+Rule Violations :0
+
+Processing Rule : Room ADC8 (Bounding Region = (2779.488mil, 4342.165mil, 3440.039mil, 4762.716mil) (InComponentClass('ADC8'))
+Rule Violations :0
+
+Processing Rule : Room ADC7 (Bounding Region = (2159.488mil, 2782.165mil, 2830.039mil, 3202.716mil) (InComponentClass('ADC7'))
+Rule Violations :0
+
+Processing Rule : Room ADC5 (Bounding Region = (2813.488mil, 2477.165mil, 3475.039mil, 2897.716mil) (InComponentClass('ADC5'))
+Rule Violations :0
+
+Processing Rule : Room OpAmp2 (Bounding Region = (3704.961mil, 3191.89mil, 5156.26mil, 4657.913mil) (InComponentClass('OpAmp2'))
+   Violation between Room Definition: Between Room OpAmp2 (Bounding Region = (3704.961mil, 3191.89mil, 5156.26mil, 4657.913mil) (InComponentClass('OpAmp2')) And SMT Small Component C60B-100nF (5674mil,1215mil) on Top Layer 
+   Violation between Room Definition: Between Room OpAmp2 (Bounding Region = (3704.961mil, 3191.89mil, 5156.26mil, 4657.913mil) (InComponentClass('OpAmp2')) And SMT Small Component C61B-100nF (5995mil,1215mil) on Top Layer 
+   Violation between Room Definition: Between Room OpAmp2 (Bounding Region = (3704.961mil, 3191.89mil, 5156.26mil, 4657.913mil) (InComponentClass('OpAmp2')) And SMT Small Component C62B-100nF (6306mil,1215mil) on Top Layer 
+   Violation between Room Definition: Between Room OpAmp2 (Bounding Region = (3704.961mil, 3191.89mil, 5156.26mil, 4657.913mil) (InComponentClass('OpAmp2')) And SMT Small Component C63B-100nF (6627mil,1215mil) on Top Layer 
+Rule Violations :4
+
+Processing Rule : Room OpAmp1 (Bounding Region = (3704.449mil, 1729.488mil, 5156.26mil, 3190.512mil) (InComponentClass('OpAmp1'))
+   Violation between Room Definition: Between Room OpAmp1 (Bounding Region = (3704.449mil, 1729.488mil, 5156.26mil, 3190.512mil) (InComponentClass('OpAmp1')) And SMT Small Component C60A-100nF (5674mil,686mil) on Top Layer 
+   Violation between Room Definition: Between Room OpAmp1 (Bounding Region = (3704.449mil, 1729.488mil, 5156.26mil, 3190.512mil) (InComponentClass('OpAmp1')) And SMT Small Component C61A-100nF (5995mil,686mil) on Top Layer 
+   Violation between Room Definition: Between Room OpAmp1 (Bounding Region = (3704.449mil, 1729.488mil, 5156.26mil, 3190.512mil) (InComponentClass('OpAmp1')) And SMT Small Component C62A-100nF (6306mil,686mil) on Top Layer 
+   Violation between Room Definition: Between Room OpAmp1 (Bounding Region = (3704.449mil, 1729.488mil, 5156.26mil, 3190.512mil) (InComponentClass('OpAmp1')) And SMT Small Component C63A-100nF (6627mil,686mil) on Top Layer 
+Rule Violations :4
+
+Processing Rule : Room ADC4 (Bounding Region = (2789.488mil, 3687.362mil, 3455.039mil, 4107.913mil) (InComponentClass('ADC4'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 75
+Waived Violations : 0
+Time Elapsed        : 00:00:05
