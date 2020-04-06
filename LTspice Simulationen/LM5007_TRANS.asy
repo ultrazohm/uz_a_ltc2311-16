@@ -5,7 +5,7 @@ WINDOW 0 8 -72 Bottom 2
 WINDOW 3 8 72 Top 2
 SYMATTR Prefix X
 SYMATTR Value LM5007_TRANS
-SYMATTR ModelFile C:\Users\simon\Downloads\snvmal6\lm5007_trans.lib
+SYMATTR ModelFile lm5007_trans.lib
 PIN -64 -48 LEFT 8
 PINATTR PinName VIN
 PINATTR SpiceOrder 1
