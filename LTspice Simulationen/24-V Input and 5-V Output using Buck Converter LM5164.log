@@ -1,0 +1,281 @@
+Circuit: * C:\Users\simon\Documents\ultrazohm_analog_ltc2311-16_3vxx\LTspice Simulationen\24-V Input and 5-V Output using Buck Converter LM5164.asc
+
+Questionable use of curly braces in "b§e_u1_abm6 u1_high_when_vfb_is_more_than_vref+4mv 0 v={if(v(on_set)>0.5&v(fb)>(v(vref)+10m),1,0)} "
+    Error: undefined symbol in: "if([v](on_set)>0.5&v(fb)>(v(vref)+10m),1,0)"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate1 yint1 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate2 yint3 0 v={if(v(yint2)>{{vthresh}},{{vss}},{{vdd}})}"
+    Error: undefined symbol in: "if([v](yint2)>((vthresh)),((vss)),((vdd)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+WARNING: Less than two connections to node U1:U3_BST_SW_ON.  This node is used by E:U1:_U3_E_TEST.
+WARNING: Less than two connections to node N004.  This node is used by S:U1:_U4_S1:_U4_S1.
+WARNING: Less than two connections to node U1:U1_HIGH_WHEN_VFB_IS_MORE_THAN_VREF+4MV.  This node is used by E:U1:_U1_ABM6.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u1:en_uvlo)
+Ignoring empty pin current: Ix(u1:fb)
+Ignoring empty pin current: Ix(u1:gnd)
+Ignoring empty pin current: Ix(u1:pad)
+Ignoring empty pin current: Ix(u1:en_uvlo)
+Ignoring empty pin current: Ix(u1:fb)
+Ignoring empty pin current: Ix(u1:gnd)
+Ignoring empty pin current: Ix(u1:pad)
+Heightened Def Con from 8.75758e-005 to 8.75758e-005
+Heightened Def Con from 8.76236e-005 +++++++++++++++++++++++++++++++++to 8.76326e-005
+Heightened Def Con from 8.76326e-005 to 8.76338e-005
+Heightened Def Con from 0.000162603 +++++++++++++++++++++++++++++++++to 0.000162604
+Heightened Def Con from 0.000162604 ++++++++to 0.000162604
+Heightened Def Con from 0.000162604 to 0.000162605
+Heightened Def Con from 0.000183647 +++++++++++++++++++++++++++++++++to 0.000183648
+Heightened Def Con from 0.000202148 ++++++++++++++++++++++++++++++to 0.000202149
+Heightened Def Con from 0.000202149 to 0.000202183
+Heightened Def Con from 0.00021135 ++++++++++++++++to 0.00021135
+Heightened Def Con from 0.00021135 to 0.000211351
+Heightened Def Con from 0.000215947 ++++++++to 0.000215947
+Heightened Def Con from 0.000215947 to 0.000215947
+Heightened Def Con from 0.00023054 ++++++++++++++++++++++++++++++++++to 0.000230546
+Heightened Def Con from 0.00029388 +++++++++++++++++to 0.00029388
+Heightened Def Con from 0.00029388 ++++++to 0.00029388
+Heightened Def Con from 0.00029388 to 0.00029388
+Heightened Def Con from 0.000318682 to 0.000318682
+Heightened Def Con from 0.000325218 +to 0.000325218
+Heightened Def Con from 0.000331825 ++++++++++++++++to 0.000331825
+Heightened Def Con from 0.000331825 to 0.000331825
+Heightened Def Con from 0.000342708 ++++++++++++++++++++++++++++++++to 0.000342708
+Heightened Def Con from 0.00035991 to 0.00035991
+Heightened Def Con from 0.000363699 +++++++++++++to 0.000363699
+Heightened Def Con from 0.000363699 to 0.000363699
+Heightened Def Con from 0.00037619 +++++++++++++++++++++++++++++++to 0.00037619
+Heightened Def Con from 0.00037619 to 0.000376224
+Heightened Def Con from 0.000389647 ++++++++++++++++++++++++++++++++++to 0.000389653
+Heightened Def Con from 0.000390335 to 0.000390335
+Heightened Def Con from 0.00039044 to 0.00039044
+Heightened Def Con from 0.000410059 to 0.00041006
+Heightened Def Con from 0.000436572 +++++++++++++++++++++++++++++++++to 0.000436582
+Heightened Def Con from 0.000436582 +++++++to 0.000436582
+Heightened Def Con from 0.000436582 to 0.000436583
+Heightened Def Con from 0.000476208 +++++++++++++++++to 0.000476208
+Heightened Def Con from 0.000476208 +++++++++++++to 0.000476208
+Heightened Def Con from 0.000476208 to 0.000476208
+Heightened Def Con from 0.000477763 to 0.000477763
+Heightened Def Con from 0.000487035 ++++++++++++++++++++++++++++++++++to 0.000487041
+Heightened Def Con from 0.000518194 to 0.000518194
+Heightened Def Con from 0.000544394 to 0.000544394
+Heightened Def Con from 0.000547358 +++++++++++++++++++++++++++++++++to 0.000547358
+Heightened Def Con from 0.000547358 +++++++++++++++++++++++++++++to 0.000547359
+Heightened Def Con from 0.000547359 to 0.000547392
+Heightened Def Con from 0.000563487 ++++++++++++++++to 0.000563487
+Heightened Def Con from 0.000563487 to 0.000563487
+Heightened Def Con from 0.000567826 ++++++++++++++++++++++++++++++++to 0.000567828
+Heightened Def Con from 0.000567828 to 0.000567861
+Heightened Def Con from 0.000575335 ++++++++++++++++++++++++++++++++++to 0.000575342
+Heightened Def Con from 0.000576035 to 0.000576035
+Heightened Def Con from 0.00057614 +++to 0.00057614
+Heightened Def Con from 0.00057614 +++++++++++++++to 0.00057614
+Heightened Def Con from 0.00057614 to 0.000576141
+Heightened Def Con from 0.000593072 ++++++++++++++++++to 0.000593072
+Heightened Def Con from 0.000593072 to 0.000593073
+Heightened Def Con from 0.000628699 ++++++++++++++to 0.000628699
+Heightened Def Con from 0.000628699 +++++++to 0.0006287
+Heightened Def Con from 0.0006287 to 0.000628733
+Heightened Def Con from 0.000636805 ++++++++++++++to 0.000636805
+Heightened Def Con from 0.00063792 to 0.00063792
+Heightened Def Con from 0.000655413 +++++++++++++++++++++++++++++++++to 0.000655425
+Heightened Def Con from 0.00065629 +++++++++++++++++to 0.00065629
+Heightened Def Con from 0.000708858 +++++++++++++++++++++++++++++++to 0.000708858
+Heightened Def Con from 0.000708858 to 0.000708892
+Heightened Def Con from 0.000712731 +++++++++++++++++++++++++++++++to 0.000712732
+Heightened Def Con from 0.000712732 to 0.000712766
+Heightened Def Con from 0.000713636 +++++++++++++++++++++++++++++++++to 0.000713636
+Heightened Def Con from 0.000713636 ++++++++++++++++to 0.000713636
+Heightened Def Con from 0.000713636 to 0.000713636
+Heightened Def Con from 0.000715434 +++++++++++++++++++++++++++++++++to 0.000715449
+Heightened Def Con from 0.000729049 +++++++++++++++++++++++++++++++++to 0.000729049
+Heightened Def Con from 0.000729049 +++++++++++++++++++++++++++++++++to 0.000729049
+Heightened Def Con from 0.000729049 +++++++++++++++++++++++++++++++++to 0.000729049
+Heightened Def Con from 0.000729049 +++++++++++++++++++++++++++++++++to 0.000729049
+Heightened Def Con from 0.000729049 +++++++++++++++++++++++++++++++++to 0.000729049
+Heightened Def Con from 0.000729049 +++++++++++++++++++++++++++++++++to 0.000729049
+Heightened Def Con from 0.000729049 +++++++++++++++++++++++++++++to 0.000729049
+Heightened Def Con from 0.000729049 to 0.000729083
+Heightened Def Con from 0.000739141 to 0.000739141
+Heightened Def Con from 0.000739246 to 0.000739246
+Heightened Def Con from 0.000751041 to 0.000751041
+Heightened Def Con from 0.000751892 ++++++++++++++++to 0.000751892
+Heightened Def Con from 0.000751892 +++++++++++to 0.000751893
+Heightened Def Con from 0.000751893 to 0.000751926
+Heightened Def Con from 0.000768049 +++++++++++++++++to 0.000768049
+Heightened Def Con from 0.000768049 +++++++++++++++++++++++++++++++++to 0.00076805
+Heightened Def Con from 0.00076805 +++++++++++++++++++++++++++++++++to 0.000768051
+Heightened Def Con from 0.000768051 +++++++++++to 0.000768051
+Heightened Def Con from 0.000768051 to 0.000768083
+Heightened Def Con from 0.000770733 ++++++++++++to 0.000770733
+Heightened Def Con from 0.000770733 to 0.000770733
+Heightened Def Con from 0.000778409 to 0.000778409
+Heightened Def Con from 0.000815591 to 0.000815591
+Heightened Def Con from 0.000815639 ++++++++++++++++++++++++++++++++to 0.000815639
+Heightened Def Con from 0.000815639 to 0.000815673
+Heightened Def Con from 0.000816541 +++++++++++++++to 0.000816541
+Heightened Def Con from 0.000816541 to 0.000816541
+Heightened Def Con from 0.000823414 ++++++++++++++++++++++++++++++++to 0.000823415
+Heightened Def Con from 0.00082511 +++++++++++++++++++++++++++++++to 0.00082511
+Heightened Def Con from 0.00082511 to 0.000825144
+Heightened Def Con from 0.000839875 +++++++++++++++++++++++++++++++++to 0.000839891
+Heightened Def Con from 0.000840484 to 0.000840485
+Heightened Def Con from 0.000840485 to 0.000840519
+Heightened Def Con from 0.000855563 ++++++++++++++++to 0.000855563
+Heightened Def Con from 0.000855563 to 0.000855563
+Heightened Def Con from 0.000856245 to 0.000856245
+Heightened Def Con from 0.000866585 +++++++++++++++++to 0.000866585
+Heightened Def Con from 0.000866585 to 0.000866585
+Heightened Def Con from 0.000878245 +++++++++++++++++to 0.000878245
+Heightened Def Con from 0.000878245 +++++++++++++++++++++++++++++++to 0.000878245
+Heightened Def Con from 0.000878245 to 0.000878279
+Heightened Def Con from 0.000890045 to 0.000890089
+Heightened Def Con from 0.000890869 ++++++++++++++++++++++++++++++++++to 0.00089088
+Heightened Def Con from 0.00089154 to 0.00089154
+Heightened Def Con from 0.00090013 ++++++++++to 0.00090013
+Heightened Def Con from 0.00090013 to 0.00090013
+Heightened Def Con from 0.00091185 +++++++++to 0.00091185
+Heightened Def Con from 0.000913247 +++++++++++++++++to 0.000913247
+Heightened Def Con from 0.000913247 +to 0.000913248
+Heightened Def Con from 0.000930199 +++++++++++++++++++++++++++++++++to 0.0009302
+Heightened Def Con from 0.000931591 ++++++++++++++++++++++++++++++++++to 0.000931601
+Heightened Def Con from 0.000932603 to 0.000932603
+Heightened Def Con from 0.000932707 to 0.000932707
+Heightened Def Con from 0.000949838 to 0.000949838
+Heightened Def Con from 0.000971564 to 0.000971564
+Heightened Def Con from 0.000971668 to 0.000971669
+Heightened Def Con from 0.000980184 ++++++++++++++++++++++++++++++++to 0.000980184
+Heightened Def Con from 0.000980184 to 0.000980223
+Heightened Def Con from 0.000988781 to 0.000988781
+Heightened Def Con from 0.000999558 ++++++++++++++to 0.000999558
+Heightened Def Con from 0.000999558 ++++++++++++++++++++++++++++++++++to 0.00099957
+Heightened Def Con from 0.00100869 to 0.00100869
+Heightened Def Con from 0.00100869 ++++++++++++++++++++++++++++++++++to 0.0010087
+Heightened Def Con from 0.0010087 to 0.00100874
+Heightened Def Con from 0.00101635 to 0.00101635
+Heightened Def Con from 0.00102582 to 0.00102582
+Heightened Def Con from 0.0010332 to 0.00103321
+Heightened Def Con from 0.00103321 +++++++++++++++++++++++++++++++to 0.00103322
+Heightened Def Con from 0.00103605 to 0.00103605
+Heightened Def Con from 0.00103605 to 0.00103609
+Heightened Def Con from 0.0010461 to 0.0010461
+Heightened Def Con from 0.00105852 to 0.00105852
+
+Date: Fri Apr 10 17:38:59 2020
+Total elapsed time: 80.718 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 1678144
+traniter = 1678135
+tranpoints = 534880
+accept = 381384
+rejected = 155363
+matrix size = 334
+fillins = 184
+solver = Normal
+Thread vector: 271.7/187.4[4] 27.3/42.2[1] 80.9/64.2[2] 8.7/1023.3[1]  2592/500
+Matrix Compiler1: 17.15 KB object code size  85.5/32.1/[9.1]
+Matrix Compiler2: 23.26 KB object code size  36.5/35.7/[13.3]
+
