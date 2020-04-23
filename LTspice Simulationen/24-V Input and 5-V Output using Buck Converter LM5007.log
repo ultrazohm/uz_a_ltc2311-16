@@ -9,23 +9,3 @@ Ignoring empty pin current: Ix(u1:fb)
 Changing Tseed to 4.88281e-010
 Changing Tseed to 4.88281e-012
 Changing Tseed to 4.88281e-009
-Heightened Def Con from 0.000448866 to 0.000448866
-
-Date: Fri Apr 10 17:40:19 2020
-Total elapsed time: 26.486 seconds.
-
-tnom = 27
-temp = 27
-method = modified trap
-totiter = 286950
-traniter = 286917
-tranpoints = 94817
-accept = 79876
-rejected = 14939
-matrix size = 114
-fillins = 135
-solver = Normal
-Thread vector: 360.5/132.4[2] 20.0/28.5[1] 29.5/22.5[2] 3.2/81.1[1]  2592/500
-Matrix Compiler1: 9.98 KB object code size  24.4/7.8/[3.5]
-Matrix Compiler2: 10.14 KB object code size  5.9/10.9/[5.1]
-
