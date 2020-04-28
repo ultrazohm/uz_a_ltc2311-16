@@ -1,0 +1,26 @@
+feedback an simon	
+
+- designator immer automatisch generieren lassen C1 C2 etc
+- Cbyp zu kleine spannung (24V - -5V = 29V), min 35V 
+- 2 layer board, GND on bottom?
+- label sind irreführend: VIN -5V ? 
+- Vcc -5V und 500mA, sicher dass so viel Strom?
+- designator von U1 sehr viel kleiner als für die restlichen bauteile? 50mil text height als vorschlag.
+
+
+Layout
+- test point für SW, generell mehr Testpoints für prototypen, überleg dir auch vorher wie du das proben kannst. 
+- Vin ist große Plane und dann nur 10mil Trace für die Zuleitung, mach das auch eine Plane
+- Vin sollte auch ein großes Elektrolyt C bekommen ca 100-200uF 
+- Silk screen kann über Traces liegen
+- siehe LM5007 section 10, layout guidelines, das sollte alles noch etwas näher zusammenkommen, bspw ist L2 sehr weit entfernt von U1 
+- change grid and hot snap
+
+nächste schritte
+- klemmen zum anschließen der spannung?
+- löcher für füße
+- +5V hinzufügen
+- spannungsfolger + differentieller op amp 1ch
+
+
+würth emv slides, siehe git
