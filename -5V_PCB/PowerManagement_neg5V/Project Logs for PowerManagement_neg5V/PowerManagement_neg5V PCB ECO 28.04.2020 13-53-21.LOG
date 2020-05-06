@@ -1,0 +1,10 @@
+Change Component Comment : Designator=L2 Old Comment=150mH New Comment=150uH
+Change component parameters: Designator = "L2" ("L2"); Footprint = "SMT_inductor_1050_Performance"; UniqueID = "\IKGRFUEO" ("\IKGRFUEO")
+Change component parameters (AddParameter): Name = "DCR"; Value = "320m"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "EPCOS / TDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "B82464G4154M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "0.85 A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "871-B82464G4154M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "150uH"; VariantName = "[No Variations]"

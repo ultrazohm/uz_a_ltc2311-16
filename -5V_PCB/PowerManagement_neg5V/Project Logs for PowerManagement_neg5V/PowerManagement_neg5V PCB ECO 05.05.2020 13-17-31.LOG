@@ -1,0 +1,150 @@
+Removed Pin From Net: NetName=VOCM Pin=C27-1
+Removed Pin From Net: NetName=GND Pin=C27-2
+Removed Pin From Net: NetName=VOCM Pin=C28-1
+Removed Pin From Net: NetName=GND Pin=C28-2
+Removed Pin From Net: NetName=VOCM Pin=C29-1
+Removed Pin From Net: NetName=GND Pin=C29-2
+Removed Pin From Net: NetName=+5V Pin=C32-1
+Removed Pin From Net: NetName=GND Pin=C32-2
+Removed Pin From Net: NetName=+5V Pin=C33-1
+Removed Pin From Net: NetName=GND Pin=C33-2
+Removed Pin From Net: NetName=+5V Pin=C34-1
+Removed Pin From Net: NetName=GND Pin=C34-2
+Removed Pin From Net: NetName=+5V Pin=C35-1
+Removed Pin From Net: NetName=GND Pin=C35-2
+Removed Pin From Net: NetName=+5V Pin=C36-1
+Removed Pin From Net: NetName=GND Pin=C36-2
+Removed Pin From Net: NetName=+5V Pin=C37-1
+Removed Pin From Net: NetName=GND Pin=C37-2
+Removed Pin From Net: NetName=GND Pin=C38-1
+Removed Pin From Net: NetName=-5V Pin=C38-2
+Removed Pin From Net: NetName=GND Pin=C40-1
+Removed Pin From Net: NetName=-5V Pin=C40-2
+Removed Pin From Net: NetName=GND Pin=C41-1
+Removed Pin From Net: NetName=-5V Pin=C41-2
+Removed Member From Class: ClassName=Amplifier Member=C33
+Removed Member From Class: ClassName=Amplifier Member=C34
+Removed Member From Class: ClassName=Amplifier Member=C35
+Removed Member From Class: ClassName=Amplifier Member=C36
+Removed Member From Class: ClassName=Amplifier Member=C37
+Removed Member From Class: ClassName=Amplifier Member=C38
+Removed Member From Class: ClassName=Amplifier Member=C39
+Removed Member From Class: ClassName=Amplifier Member=C40
+Removed Member From Class: ClassName=Amplifier Member=C41
+Change Component Designator: OldDesignator=C25 NewDesignator=C28
+Change Component Designator: OldDesignator=C26 NewDesignator=C29
+Change Component Designator: OldDesignator=C39 NewDesignator=C32
+Change Component Designator: OldDesignator=J2 NewDesignator=J3
+Change Component Designator: OldDesignator=J3 NewDesignator=J2
+Change Component Designator: OldDesignator=R12 NewDesignator=R13
+Change Component Designator: OldDesignator=R13 NewDesignator=R14
+Change Component Designator: OldDesignator=R14 NewDesignator=R16
+Change Component Designator: OldDesignator=R15 NewDesignator=R18
+Change Component Designator: OldDesignator=R16 NewDesignator=R19
+Change Component Designator: OldDesignator=R17 NewDesignator=R21
+Change Component Designator: OldDesignator=TP8 NewDesignator=TP11
+Change Component Designator: OldDesignator=TP9 NewDesignator=TP13
+Added Component: Designator=C25(CAPC1608X07N)
+Add component (AddParameter): Name = "Dielectric"; Value = "C0G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "VJ0603A681GXJCW1BC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "77-VJ0603A681GXJCBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "680pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C26(CAPC1608X07N)
+Add component (AddParameter): Name = "Dielectric"; Value = "C0G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "VJ0603A471JXJCW1BC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "77-VJ0603A471JXJCBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C27(CAPC1608X07N)
+Add component (AddParameter): Name = "Dielectric"; Value = "C0G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "VJ0603A681GXJCW1BC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "77-VJ0603A681GXJCBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "680pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RESC1608X06N)
+Add component (AddParameter): Name = "MF"; Value = "Vishay / Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "CRCW06030000Z0EBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "71-CRCW06030000Z0EBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R15(RESC1608X06N)
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RC0603FR-1324R9L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-RC0603FR-1324R9L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "24R9"; VariantName = "[No Variations]"
+Added Component: Designator=R17(RESC1608X06N)
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RC0603FR-1324R9L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-RC0603FR-1324R9L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "24R9"; VariantName = "[No Variations]"
+Added Component: Designator=R20(RESC1608X06N)
+Add component (AddParameter): Name = "MF"; Value = "Vishay / Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "CRCW06030000Z0EBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "71-CRCW06030000Z0EBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=TP8(TP_1mm)
+Add component (AddParameter): Name = "Created"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "AMP+"; VariantName = "[No Variations]"
+Added Component: Designator=TP9(TP_1mm)
+Add component (AddParameter): Name = "Created"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "ADC+"; VariantName = "[No Variations]"
+Added Component: Designator=TP10(TP_1mm)
+Add component (AddParameter): Name = "Created"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "ADC-"; VariantName = "[No Variations]"
+Added Component: Designator=TP12(TP_1mm)
+Add component (AddParameter): Name = "Created"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "AMP-"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C25-1
+Added Pin To Net: NetName=GND Pin=C27-2
+Added Pin To Net: NetName=OUT_P Pin=R12-1
+Added Pin To Net: NetName=OUT_P Pin=R15-1
+Added Pin To Net: NetName=OUT_N Pin=R17-1
+Added Pin To Net: NetName=OUT_N Pin=R20-2
+Added Pin To Net: NetName=ADC_IN_N Pin=C26-2
+Added Pin To Net: NetName=ADC_IN_N Pin=C27-1
+Added Pin To Net: NetName=ADC_IN_N Pin=R17-2
+Added Pin To Net: NetName=ADC_IN_N Pin=TP10-1
+Added Net: Name=ADC_IN_N
+Added Pin To Net: NetName=ADC_IN_P Pin=C25-2
+Added Pin To Net: NetName=ADC_IN_P Pin=C26-1
+Added Pin To Net: NetName=ADC_IN_P Pin=R15-2
+Added Pin To Net: NetName=ADC_IN_P Pin=TP9-1
+Added Net: Name=ADC_IN_P
+Added Pin To Net: NetName=NetR12_2 Pin=R12-2
+Added Pin To Net: NetName=NetR12_2 Pin=TP8-1
+Added Net: Name=NetR12_2
+Added Pin To Net: NetName=NetR20_1 Pin=R20-1
+Added Pin To Net: NetName=NetR20_1 Pin=TP12-1
+Added Net: Name=NetR20_1
+Added Differential Pair: Name=ADC_IN
+Added Member To Class: ClassName=Amplifier Member=Component R18 0R
+Added Member To Class: ClassName=Amplifier Member=Component R19 1k
+Added Member To Class: ClassName=Amplifier Member=Component R20 0R
+Added Member To Class: ClassName=Amplifier Member=Component R21 1k
+Added Member To Class: ClassName=Amplifier Member=Component TP10 ADC-
+Added Member To Class: ClassName=Amplifier Member=Component TP11 Testpoint 1mm
+Added Member To Class: ClassName=Amplifier Member=Component TP12 AMP-
+Added Member To Class: ClassName=Amplifier Member=Component TP13 Testpoint 1mm
