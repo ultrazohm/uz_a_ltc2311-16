@@ -1,0 +1,19 @@
+Removed Member From Class: ClassName=Amplifier Member=C24
+Added Member To Class: ClassName=PCBdesign Member=Component J1 1714955
+Added Member To Class: ClassName=PCBdesign Member=Component J3 TSW-102-07-S-S
+Added Member To Class: ClassName=PowerSupply Member=Component R12 1k
+Added Member To Class: ClassName=Amplifier Member=Component R13 1k
+Added Member To Class: ClassName=Amplifier Member=Component R18 1k
+Added Member To Class: ClassName=Amplifier Member=Component R20 0R
+Added Member To Class: ClassName=PowerSupply Member=Component TP1 24V_P
+Added Member To Class: ClassName=PowerSupply Member=Component TP2 +5V
+Added Member To Class: ClassName=PowerSupply Member=Component TP3 GND
+Added Member To Class: ClassName=PowerSupply Member=Component TP4 SW_N
+Added Member To Class: ClassName=PowerSupply Member=Component TP5 24V_N
+Added Member To Class: ClassName=PowerSupply Member=Component TP6 FB_N
+Added Member To Class: ClassName=PowerSupply Member=Component TP7 -5V
+Added Member To Class: ClassName=Amplifier Member=Component TP8 AMP+
+Added Member To Class: ClassName=Amplifier Member=Component TP9 AMP-
+Added Member To Class: ClassName=Amplifier Member=Component TP10 PD
+Added Member To Class: ClassName=Amplifier Member=Component TP11 GND
+Added Member To Class: ClassName=Amplifier Member=Component TP12 -5V
