@@ -156,9 +156,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XHTMPVYP
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for PowerManagement_neg5V\Design Rule Check - PowerManagement_neg5V.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=ProjectRevision
-Value=1v02
+Value=1v03
 
 [Parameter2]
 Name=ProjectName
