@@ -1,12 +1,14 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [PowerManagement_neg5V.PcbDoc]
-   Generated File[PowerManagement_neg5V.TXT]
-   Generated File[PowerManagement_neg5V.LDP]
-   Generated File[PowerManagement_neg5V.DRR]
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 11:54:09 On 15.05.2020
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [Buffer] of Project [PowerManagement_neg5V.PrjPcb]
+   Generated File[BOM_PowerManagement_neg5V_1v03.xlsx]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 10:24:11 On 15.05.2020
+Finished Output Generation At 11:54:43 On 15.05.2020

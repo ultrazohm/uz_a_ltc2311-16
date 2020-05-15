@@ -38,6 +38,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=PCBdesign.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HBTLVIEC
+
+[Document2]
 DocumentPath=PowerSupply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -54,41 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CCXKAAFJ
 
-[Document2]
-DocumentPath=PowerManagement_neg5V.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QMJQINCV
-
 [Document3]
-DocumentPath=UZohmADC.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=UJRVDYWO
-
-[Document4]
 DocumentPath=Amplifier.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +88,41 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UDNWOZAG
 
+[Document4]
+DocumentPath=PowerManagement_neg5V.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QMJQINCV
+
 [Document5]
+DocumentPath=UZohmADC.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UJRVDYWO
+
+[Document6]
 DocumentPath=OutputJob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -121,23 +138,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[Document6]
-DocumentPath=PCBdesign.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HBTLVIEC
 
 [Document7]
 DocumentPath=neg5V.SCHLIB
@@ -157,28 +157,32 @@ GenerateClassCluster=0
 DocumentUniqueId=XHTMPVYP
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for PowerManagement_neg5V\BOM\BOM_PowerManagement_neg5V_1v03.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for PowerManagement_neg5V\Design Rule Check - PowerManagement_neg5V.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectRevision
-Value=1v03
+Name=Author
+Value=S.Lukas
 
 [Parameter2]
-Name=ProjectName
-Value=Power Supply -5V
+Name=Date
+Value=04/20
 
 [Parameter3]
 Name=ProjectAuthor
 Value=Simon Lukas
 
 [Parameter4]
-Name=Date
-Value=04/20
+Name=ProjectName
+Value=Power Supply -5V
 
 [Parameter5]
-Name=Author
-Value=S.Lukas
+Name=ProjectRevision
+Value=1v03
 
 [Configuration1]
 Name=Sources
