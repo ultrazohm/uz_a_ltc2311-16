@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\simon\Documents\ultrazohm_analog_ltc2311-16_3vxx\-5V_PCB\PowerManagement_neg5V\PowerManagement_neg5V.PcbDoc
-Date     : 14.05.2020
-Time     : 16:15:36
+PCB File : C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3vxx\-5V_PCB\PowerManagement_neg5V\PowerManagement_neg5V.PcbDoc
+Date     : 15.05.2020
+Time     : 08:28:33
 
 Processing Rule : Clearance Constraint (Gap=3.5mil) (All),(All)
 Rule Violations :0
@@ -46,9 +46,11 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=10mil) (All)
+   Violation between Matched Net Lengths: Between Net Buffer_N And Net Buffer_P Actual Difference against Buffer_P is: 26.44mil, Tolerance : 10mil. 
+   Violation between Matched Net Lengths: Between Net ext_IN_N And Net ext_IN_P Actual Difference against ext_IN_P is: 28.673mil, Tolerance : 10mil. 
    Violation between Matched Net Lengths: Between Net FB_N And Net FB_P Actual Difference against FB_P is: 93.435mil, Tolerance : 10mil. 
    Violation between Matched Net Lengths: Between Net OUT_N And Net OUT_P Actual Difference against OUT_P is: 97.793mil, Tolerance : 10mil. 
-Rule Violations :2
+Rule Violations :4
 
 Processing Rule : Component Clearance Constraint ( Horizontal Gap = 10mil, Vertical Gap = 10mil ) (All),(All) 
 Rule Violations :0
@@ -57,6 +59,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 2
+Violations Detected : 4
 Waived Violations : 0
-Time Elapsed        : 00:00:05
+Time Elapsed        : 00:00:01

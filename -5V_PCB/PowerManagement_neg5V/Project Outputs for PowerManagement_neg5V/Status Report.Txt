@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [PowerManagement_neg5V.PcbDoc]
+   Generated File[PowerManagement_neg5V.TXT]
+   Generated File[PowerManagement_neg5V.LDP]
+   Generated File[PowerManagement_neg5V.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 09:17:58 On 15.05.2020
