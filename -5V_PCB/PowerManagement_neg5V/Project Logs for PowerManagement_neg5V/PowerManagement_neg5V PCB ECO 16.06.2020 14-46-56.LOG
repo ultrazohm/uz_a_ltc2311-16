@@ -1,0 +1,39 @@
+Removed Member From Class: ClassName=PowerSupply Member=D2
+Removed Member From Class: ClassName=Amplifier Member=R2
+Removed Member From Class: ClassName=Amplifier Member=R3
+Removed Member From Class: ClassName=PowerSupply Member=R18
+Removed Member From Class: ClassName=PowerSupply Member=R25
+Removed Member From Class: ClassName=PowerSupply Member=TP12
+Removed Member From Class: ClassName=PowerSupply Member=TP13
+Removed Member From Class: ClassName=PowerSupply Member=TP14
+Added Member To Class: ClassName=PowerSupply Member=Component C8 100nF
+Added Member To Class: ClassName=PowerSupply Member=Component C11 220µF
+Added Member To Class: ClassName=PowerSupply Member=Component C22 220µF
+Added Member To Class: ClassName=PowerSupply Member=Component C23 dnp
+Added Member To Class: ClassName=PowerSupply Member=Component D4 BYS12-90
+Added Member To Class: ClassName=PCBdesign Member=Component J5 TSW-102-07-S-S
+Added Member To Class: ClassName=PowerSupply Member=Component R4 162k
+Added Member To Class: ClassName=PowerSupply Member=Component R6 1k
+Added Member To Class: ClassName=PowerSupply Member=Component R7 dnp
+Added Member To Class: ClassName=PowerSupply Member=Component R8 1k
+Added Member To Class: ClassName=PowerSupply Member=Component R9 133k
+Added Member To Class: ClassName=PowerSupply Member=Component R11 dnp
+Added Member To Class: ClassName=PowerSupply Member=Component R12 1k
+Added Member To Class: ClassName=PowerSupply Member=Component R13 dnp
+Added Member To Class: ClassName=PowerSupply Member=Component R15 133k
+Added Member To Class: ClassName=Amplifier Member=Component R16 10k
+Added Member To Class: ClassName=Amplifier Member=Component R17 10k
+Added Member To Class: ClassName=Amplifier Member=Component R19 dnp
+Added Member To Class: ClassName=Amplifier Member=Component R20 24R9
+Added Member To Class: ClassName=Amplifier Member=Component R21 10k
+Added Member To Class: ClassName=Amplifier Member=Component R22 0R
+Added Member To Class: ClassName=Amplifier Member=Component R23 dnp
+Added Member To Class: ClassName=Amplifier Member=Component R26 dnp
+Added Member To Class: ClassName=Amplifier Member=Component R27 10k
+Added Member To Class: ClassName=PowerSupply Member=Component TP2 SW_P
+Added Member To Class: ClassName=PowerSupply Member=Component TP4 FB_P
+Added Member To Class: ClassName=PowerSupply Member=Component TP6 SW_N
+Added Member To Class: ClassName=PowerSupply Member=Component TP8 -5V
+Added Member To Class: ClassName=PowerSupply Member=Component TP9 GND
+Added Member To Class: ClassName=PowerSupply Member=Component TP10 GND
+Added Member To Class: ClassName=Amplifier Member=Component TP11 AMP+
