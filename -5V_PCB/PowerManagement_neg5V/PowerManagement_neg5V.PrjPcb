@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for PowerManagement_neg5V
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -165,24 +165,24 @@ DocumentPath=Project Outputs for PowerManagement_neg5V\Design Rule Check - Power
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectRevision
-Value=1v03
+Name=Author
+Value=S.Lukas
 
 [Parameter2]
-Name=ProjectName
-Value=Power Supply -5V
+Name=Date
+Value=06/20
 
 [Parameter3]
 Name=ProjectAuthor
 Value=Simon Lukas
 
 [Parameter4]
-Name=Date
-Value=06/20
+Name=ProjectName
+Value=Power Supply -5V
 
 [Parameter5]
-Name=Author
-Value=S.Lukas
+Name=ProjectRevision
+Value=1v03
 
 [Configuration1]
 Name=Sources
@@ -195,7 +195,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for PowerManagement_neg5V
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
