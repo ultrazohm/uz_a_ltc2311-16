@@ -1,0 +1,66 @@
+Change Component Designator: OldDesignator=C14 NewDesignator=C58
+Change Component Designator: OldDesignator=C15 NewDesignator=C59
+Change Component Designator: OldDesignator=C16 NewDesignator=C65
+Change Component Designator: OldDesignator=C17 NewDesignator=C66
+Change Component Designator: OldDesignator=C18 NewDesignator=C67
+Change Component Designator: OldDesignator=C19 NewDesignator=C68
+Change Component Designator: OldDesignator=C20 NewDesignator=C69
+Change Component Designator: OldDesignator=C21 NewDesignator=C70
+Change Component Designator: OldDesignator=C22 NewDesignator=C71
+Change Component Designator: OldDesignator=C23 NewDesignator=C72
+Change Component Designator: OldDesignator=C24 NewDesignator=C73
+Change Component Designator: OldDesignator=C25 NewDesignator=C74
+Change Component Designator: OldDesignator=L3 NewDesignator=L5
+Change Component Designator: OldDesignator=L4 NewDesignator=L6
+Change Component Designator: OldDesignator=R10 NewDesignator=R38
+Change Component Designator: OldDesignator=R11 NewDesignator=R39
+Change Component Designator: OldDesignator=R12 NewDesignator=R41
+Change Component Designator: OldDesignator=R13 NewDesignator=R44
+Change Component Designator: OldDesignator=R14 NewDesignator=R46
+Change Component Designator: OldDesignator=R15 NewDesignator=R47
+Change Component Designator: OldDesignator=U2 NewDesignator=U4
+Change Component Description : Designator=L1 Old Description=WE-CBF SMD EMI Suppression Ferrite Bead, 0805, 600O New Description=WE-CBF SMD EMI Suppression Ferrite Bead, 0805, 600O
+Change Component Description : Designator=L5 Old Description=WE-CBF SMD EMI Suppression Ferrite Bead, 0805, 600O New Description=WE-CBF SMD EMI Suppression Ferrite Bead, 0805, 600O
+Change component parameters: Designator = "L1"; Footprint = "WE-CBF_0805_High Current"; UniqueID = "\RKICZNVP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/742792040.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "742792040"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PublishedDate"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2761567"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "710-742792040"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 3"; Value = "732-1620-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "High Current"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "600O"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L5"; Footprint = "WE-CBF_0805_High Current"; UniqueID = "\RKRGVRYI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/742792040.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "742792040"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PublishedDate"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1635735"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "710-742792040"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 3"; Value = "732-1620-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "High Current"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "600O"; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=ADC_IN_N New Net Name=BNC_N
+Change Net Name : Old Net Name=ADC_IN_P New Net Name=BNC_P
+Change Net Name : Old Net Name=NetC14_2 New Net Name=NetC58_2
+Change Net Name : Old Net Name=NetC15_2 New Net Name=NetC59_2
+Added Differential Pair: Name=BNC
+Added Room: Name=PCBdesign
+Added Room: Name=PowerSupply
