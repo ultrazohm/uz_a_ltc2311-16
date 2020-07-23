@@ -1,0 +1,22 @@
+Change Net Name : Old Net Name=CVN_A New Net Name=CVNB
+Change Net Name : Old Net Name=CVN_B New Net Name=CVNA
+Change Net Name : Old Net Name=NetR48_2 New Net Name=CVN_A1
+Change Net Name : Old Net Name=NetR53_2 New Net Name=CVN_A2
+Change Net Name : Old Net Name=NetR57_2 New Net Name=CVN_A3
+Change Net Name : Old Net Name=NetR60_2 New Net Name=CVN_A4
+Change Net Name : Old Net Name=NetR61_2 New Net Name=CVN_B1
+Change Net Name : Old Net Name=NetR62_2 New Net Name=CVN_B2
+Change Net Name : Old Net Name=NetR63_2 New Net Name=CVN_B3
+Change Net Name : Old Net Name=NetR64_2 New Net Name=CVN_B4
+Added Pin To Net: NetName=CVN_A Pin=R3-1
+Added Pin To Net: NetName=CVN_A Pin=R59-1
+Added Pin To Net: NetName=CVN_A Pin=TP7-1
+Added Pin To Net: NetName=CVN_A Pin=U5-1
+Added Net: Name=CVN_A
+Added Pin To Net: NetName=CVN_B Pin=R3-2
+Added Pin To Net: NetName=CVN_B Pin=R58-2
+Added Pin To Net: NetName=CVN_B Pin=TP11-1
+Added Pin To Net: NetName=CVN_B Pin=U12-1
+Added Net: Name=CVN_B
+Added Class: Name=CVN_A[1..4]
+Added Class: Name=CVN_B[1..4]
