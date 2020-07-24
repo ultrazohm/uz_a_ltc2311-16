@@ -1,0 +1,812 @@
+Removed Pin From Net: NetName=AIN_A_P4 Pin=J1-A1
+Removed Pin From Net: NetName=AIN_A_N4 Pin=J1-A2
+Removed Pin From Net: NetName=AIN_A_P3 Pin=J1-A3
+Removed Pin From Net: NetName=AIN_A_P2 Pin=J1-A4
+Removed Pin From Net: NetName=AIN_A_N2 Pin=J1-A5
+Removed Pin From Net: NetName=AIN_A_N3 Pin=J1-A6
+Removed Pin From Net: NetName=AIN_A_P1 Pin=J1-A7
+Removed Pin From Net: NetName=AIN_A_N1 Pin=J1-A8
+Removed Pin From Net: NetName=AIN_B_P4 Pin=J1-B1
+Removed Pin From Net: NetName=AIN_B_N4 Pin=J1-B2
+Removed Pin From Net: NetName=AIN_B_P3 Pin=J1-B3
+Removed Pin From Net: NetName=AIN_B_P2 Pin=J1-B4
+Removed Pin From Net: NetName=AIN_B_N2 Pin=J1-B5
+Removed Pin From Net: NetName=AIN_B_N3 Pin=J1-B6
+Removed Pin From Net: NetName=AIN_B_P1 Pin=J1-B7
+Removed Pin From Net: NetName=AIN_B_N1 Pin=J1-B8
+Change Component Description : Designator=L1 Old Description=WE-CBF SMD EMI Suppression Ferrite Bead, 0805, 600O New Description=WE-CBF SMD EMI Suppression Ferrite Bead, 0805, 600O
+Change Component Description : Designator=L3 Old Description=WE-CBF SMD EMI Suppression Ferrite Bead, 0805, 600O New Description=WE-CBF SMD EMI Suppression Ferrite Bead, 0805, 600O
+Change Component Description : Designator=L4 Old Description=WE-CBF SMD EMI Suppression Ferrite Bead, 0805, 600O New Description=WE-CBF SMD EMI Suppression Ferrite Bead, 0805, 600O
+Change Component Description : Designator=L5 Old Description=WE-CBF SMD EMI Suppression Ferrite Bead, 0805, 600O New Description=WE-CBF SMD EMI Suppression Ferrite Bead, 0805, 600O
+Change component parameters: Designator = "L1"; Footprint = "WE-CBF_0805_High Current"; UniqueID = "\KUYADNDL\FDQQVFKW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/742792040.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "742792040"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PublishedDate"; Value = "Aug 2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2761567"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "710-742792040"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 3"; Value = "732-1620-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "High Current"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "600O"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L3"; Footprint = "WE-CBF_0805_High Current"; UniqueID = "\KUYADNDL\AHYPESPG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/742792040.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "742792040"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PublishedDate"; Value = "Aug 2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2761567"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "710-742792040"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 3"; Value = "732-1620-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "High Current"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "600O"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L4"; Footprint = "WE-CBF_0805_High Current"; UniqueID = "\KUYADNDL\HWGUGTWE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/742792040.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "742792040"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PublishedDate"; Value = "Aug 2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2761567"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "710-742792040"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 3"; Value = "732-1620-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "High Current"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "600O"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L5"; Footprint = "WE-CBF_0805_High Current"; UniqueID = "\KUYADNDL\TJWERUUI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/742792040.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "742792040"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PublishedDate"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1635735"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "710-742792040"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 3"; Value = "732-1620-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "High Current"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "600O"; VariantName = "[No Variations]"
+Added Component: Designator=C23A(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C23B(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C75A(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C75B(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C76A(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C76B(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C77A(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C77B(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C78A(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C78B(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C79A(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C79B(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C80A(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C80B(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C81A(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C81B(CAPC1608X07N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "710-885012006057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=D6A(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D6B(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D7A(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D7B(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D8A(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D8B(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D9A(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D9B(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D10A(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D10B(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D11A(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D11B(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D12A(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D12B(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D13A(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D13B(SOD-323_SuppressorDiode)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "breakdown voltage"; Value = "6.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://static6.arrow.com/aropdfconversion/cf1b73a38d87e210bfa153441e03466b149f09ba/gblci.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ProTek Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = "GBLC05CI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GBLC05CI-LF-T7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "standoff voltage"; Value = "5.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "futureelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R65A(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R65B(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R66A(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R66B(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R67A(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R67B(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R68A(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R68B(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R69A(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R69B(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R70A(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R70B(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R71A(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R71B(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R72A(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=R72B(RESC1608X06N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "603-AC0603FR-13100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AIN_A_P1 Pin=C23A-1
+Added Pin To Net: NetName=GND Pin=C23A-2
+Added Pin To Net: NetName=AIN_B_P1 Pin=C23B-1
+Added Pin To Net: NetName=GND Pin=C23B-2
+Added Pin To Net: NetName=AIN_A_N1 Pin=C75A-1
+Added Pin To Net: NetName=GND Pin=C75A-2
+Added Pin To Net: NetName=AIN_B_N1 Pin=C75B-1
+Added Pin To Net: NetName=GND Pin=C75B-2
+Added Pin To Net: NetName=AIN_A_P2 Pin=C76A-1
+Added Pin To Net: NetName=GND Pin=C76A-2
+Added Pin To Net: NetName=AIN_B_P2 Pin=C76B-1
+Added Pin To Net: NetName=GND Pin=C76B-2
+Added Pin To Net: NetName=AIN_A_N2 Pin=C77A-1
+Added Pin To Net: NetName=GND Pin=C77A-2
+Added Pin To Net: NetName=AIN_B_N2 Pin=C77B-1
+Added Pin To Net: NetName=GND Pin=C77B-2
+Added Pin To Net: NetName=AIN_A_P3 Pin=C78A-1
+Added Pin To Net: NetName=GND Pin=C78A-2
+Added Pin To Net: NetName=AIN_B_P3 Pin=C78B-1
+Added Pin To Net: NetName=GND Pin=C78B-2
+Added Pin To Net: NetName=AIN_A_N3 Pin=C79A-1
+Added Pin To Net: NetName=GND Pin=C79A-2
+Added Pin To Net: NetName=AIN_B_N3 Pin=C79B-1
+Added Pin To Net: NetName=GND Pin=C79B-2
+Added Pin To Net: NetName=AIN_A_P4 Pin=C80A-1
+Added Pin To Net: NetName=GND Pin=C80A-2
+Added Pin To Net: NetName=AIN_B_P4 Pin=C80B-1
+Added Pin To Net: NetName=GND Pin=C80B-2
+Added Pin To Net: NetName=AIN_A_N4 Pin=C81A-1
+Added Pin To Net: NetName=GND Pin=C81A-2
+Added Pin To Net: NetName=AIN_B_N4 Pin=C81B-1
+Added Pin To Net: NetName=GND Pin=C81B-2
+Added Pin To Net: NetName=AIN_A_P1 Pin=D6A-1
+Added Pin To Net: NetName=GND Pin=D6A-2
+Added Pin To Net: NetName=AIN_B_P1 Pin=D6B-1
+Added Pin To Net: NetName=GND Pin=D6B-2
+Added Pin To Net: NetName=AIN_A_N1 Pin=D7A-1
+Added Pin To Net: NetName=GND Pin=D7A-2
+Added Pin To Net: NetName=AIN_B_N1 Pin=D7B-1
+Added Pin To Net: NetName=GND Pin=D7B-2
+Added Pin To Net: NetName=AIN_A_P2 Pin=D8A-1
+Added Pin To Net: NetName=GND Pin=D8A-2
+Added Pin To Net: NetName=AIN_B_P2 Pin=D8B-1
+Added Pin To Net: NetName=GND Pin=D8B-2
+Added Pin To Net: NetName=AIN_A_N2 Pin=D9A-1
+Added Pin To Net: NetName=GND Pin=D9A-2
+Added Pin To Net: NetName=AIN_B_N2 Pin=D9B-1
+Added Pin To Net: NetName=GND Pin=D9B-2
+Added Pin To Net: NetName=AIN_A_P3 Pin=D10A-1
+Added Pin To Net: NetName=GND Pin=D10A-2
+Added Pin To Net: NetName=AIN_B_P3 Pin=D10B-1
+Added Pin To Net: NetName=GND Pin=D10B-2
+Added Pin To Net: NetName=AIN_A_N3 Pin=D11A-1
+Added Pin To Net: NetName=GND Pin=D11A-2
+Added Pin To Net: NetName=AIN_B_N3 Pin=D11B-1
+Added Pin To Net: NetName=GND Pin=D11B-2
+Added Pin To Net: NetName=AIN_A_P4 Pin=D12A-1
+Added Pin To Net: NetName=GND Pin=D12A-2
+Added Pin To Net: NetName=AIN_B_P4 Pin=D12B-1
+Added Pin To Net: NetName=GND Pin=D12B-2
+Added Pin To Net: NetName=AIN_A_N4 Pin=D13A-1
+Added Pin To Net: NetName=GND Pin=D13A-2
+Added Pin To Net: NetName=AIN_B_N4 Pin=D13B-1
+Added Pin To Net: NetName=GND Pin=D13B-2
+Added Pin To Net: NetName=AIN_A_P1 Pin=R65A-2
+Added Pin To Net: NetName=AIN_B_P1 Pin=R65B-2
+Added Pin To Net: NetName=AIN_A_N1 Pin=R66A-2
+Added Pin To Net: NetName=AIN_B_N1 Pin=R66B-2
+Added Pin To Net: NetName=AIN_A_P2 Pin=R67A-2
+Added Pin To Net: NetName=AIN_B_P2 Pin=R67B-2
+Added Pin To Net: NetName=AIN_A_N2 Pin=R68A-2
+Added Pin To Net: NetName=AIN_B_N2 Pin=R68B-2
+Added Pin To Net: NetName=AIN_A_P3 Pin=R69A-2
+Added Pin To Net: NetName=AIN_B_P3 Pin=R69B-2
+Added Pin To Net: NetName=AIN_A_N3 Pin=R70A-2
+Added Pin To Net: NetName=AIN_B_N3 Pin=R70B-2
+Added Pin To Net: NetName=AIN_A_P4 Pin=R71A-2
+Added Pin To Net: NetName=AIN_B_P4 Pin=R71B-2
+Added Pin To Net: NetName=AIN_A_N4 Pin=R72A-2
+Added Pin To Net: NetName=AIN_B_N4 Pin=R72B-2
+Change Net Name : Old Net Name=AIN_A_N1 New Net Name=NetC75A_1
+Change Net Name : Old Net Name=AIN_A_N2 New Net Name=NetC77A_1
+Change Net Name : Old Net Name=AIN_A_N3 New Net Name=NetC79A_1
+Change Net Name : Old Net Name=AIN_A_N4 New Net Name=NetC81A_1
+Change Net Name : Old Net Name=AIN_A_P1 New Net Name=NetC23A_1
+Change Net Name : Old Net Name=AIN_A_P2 New Net Name=NetC76A_1
+Change Net Name : Old Net Name=AIN_A_P3 New Net Name=NetC78A_1
+Change Net Name : Old Net Name=AIN_A_P4 New Net Name=NetC80A_1
+Change Net Name : Old Net Name=AIN_B_N1 New Net Name=NetC75B_1
+Change Net Name : Old Net Name=AIN_B_N2 New Net Name=NetC77B_1
+Change Net Name : Old Net Name=AIN_B_N3 New Net Name=NetC79B_1
+Change Net Name : Old Net Name=AIN_B_N4 New Net Name=NetC81B_1
+Change Net Name : Old Net Name=AIN_B_P1 New Net Name=NetC23B_1
+Change Net Name : Old Net Name=AIN_B_P2 New Net Name=NetC76B_1
+Change Net Name : Old Net Name=AIN_B_P3 New Net Name=NetC78B_1
+Change Net Name : Old Net Name=AIN_B_P4 New Net Name=NetC80B_1
+Added Pin To Net: NetName=AIN_A_N1 Pin=J1-A8
+Added Pin To Net: NetName=AIN_A_N1 Pin=R66A-1
+Added Net: Name=AIN_A_N1
+Added Pin To Net: NetName=AIN_A_N2 Pin=J1-A5
+Added Pin To Net: NetName=AIN_A_N2 Pin=R68A-1
+Added Net: Name=AIN_A_N2
+Added Pin To Net: NetName=AIN_A_N3 Pin=J1-A6
+Added Pin To Net: NetName=AIN_A_N3 Pin=R70A-1
+Added Net: Name=AIN_A_N3
+Added Pin To Net: NetName=AIN_A_N4 Pin=J1-A2
+Added Pin To Net: NetName=AIN_A_N4 Pin=R72A-1
+Added Net: Name=AIN_A_N4
+Added Pin To Net: NetName=AIN_A_P1 Pin=J1-A7
+Added Pin To Net: NetName=AIN_A_P1 Pin=R65A-1
+Added Net: Name=AIN_A_P1
+Added Pin To Net: NetName=AIN_A_P2 Pin=J1-A4
+Added Pin To Net: NetName=AIN_A_P2 Pin=R67A-1
+Added Net: Name=AIN_A_P2
+Added Pin To Net: NetName=AIN_A_P3 Pin=J1-A3
+Added Pin To Net: NetName=AIN_A_P3 Pin=R69A-1
+Added Net: Name=AIN_A_P3
+Added Pin To Net: NetName=AIN_A_P4 Pin=J1-A1
+Added Pin To Net: NetName=AIN_A_P4 Pin=R71A-1
+Added Net: Name=AIN_A_P4
+Added Pin To Net: NetName=AIN_B_N1 Pin=J1-B8
+Added Pin To Net: NetName=AIN_B_N1 Pin=R66B-1
+Added Net: Name=AIN_B_N1
+Added Pin To Net: NetName=AIN_B_N2 Pin=J1-B5
+Added Pin To Net: NetName=AIN_B_N2 Pin=R68B-1
+Added Net: Name=AIN_B_N2
+Added Pin To Net: NetName=AIN_B_N3 Pin=J1-B6
+Added Pin To Net: NetName=AIN_B_N3 Pin=R70B-1
+Added Net: Name=AIN_B_N3
+Added Pin To Net: NetName=AIN_B_N4 Pin=J1-B2
+Added Pin To Net: NetName=AIN_B_N4 Pin=R72B-1
+Added Net: Name=AIN_B_N4
+Added Pin To Net: NetName=AIN_B_P1 Pin=J1-B7
+Added Pin To Net: NetName=AIN_B_P1 Pin=R65B-1
+Added Net: Name=AIN_B_P1
+Added Pin To Net: NetName=AIN_B_P2 Pin=J1-B4
+Added Pin To Net: NetName=AIN_B_P2 Pin=R67B-1
+Added Net: Name=AIN_B_P2
+Added Pin To Net: NetName=AIN_B_P3 Pin=J1-B3
+Added Pin To Net: NetName=AIN_B_P3 Pin=R69B-1
+Added Net: Name=AIN_B_P3
+Added Pin To Net: NetName=AIN_B_P4 Pin=J1-B1
+Added Pin To Net: NetName=AIN_B_P4 Pin=R71B-1
+Added Net: Name=AIN_B_P4
+Added Member To Class: ClassName=OpAmp1 Member=Component C23A (C23) 100pF
+Added Member To Class: ClassName=OpAmp2 Member=Component C23B (C23) 100pF
+Added Member To Class: ClassName=OpAmp1 Member=Component C75A (C75) 100pF
+Added Member To Class: ClassName=OpAmp2 Member=Component C75B (C75) 100pF
+Added Member To Class: ClassName=OpAmp1 Member=Component C76A (C76) 100pF
+Added Member To Class: ClassName=OpAmp2 Member=Component C76B (C76) 100pF
+Added Member To Class: ClassName=OpAmp1 Member=Component C77A (C77) 100pF
+Added Member To Class: ClassName=OpAmp2 Member=Component C77B (C77) 100pF
+Added Member To Class: ClassName=OpAmp1 Member=Component C78A (C78) 100pF
+Added Member To Class: ClassName=OpAmp2 Member=Component C78B (C78) 100pF
+Added Member To Class: ClassName=OpAmp1 Member=Component C79A (C79) 100pF
+Added Member To Class: ClassName=OpAmp2 Member=Component C79B (C79) 100pF
+Added Member To Class: ClassName=OpAmp1 Member=Component C80A (C80) 100pF
+Added Member To Class: ClassName=OpAmp2 Member=Component C80B (C80) 100pF
+Added Member To Class: ClassName=OpAmp1 Member=Component C81A (C81) 100pF
+Added Member To Class: ClassName=OpAmp2 Member=Component C81B (C81) 100pF
+Added Member To Class: ClassName=OpAmp1 Member=Component D6A (D6) GBLC05CI
+Added Member To Class: ClassName=OpAmp2 Member=Component D6B (D6) GBLC05CI
+Added Member To Class: ClassName=OpAmp1 Member=Component D7A (D7) GBLC05CI
+Added Member To Class: ClassName=OpAmp2 Member=Component D7B (D7) GBLC05CI
+Added Member To Class: ClassName=OpAmp1 Member=Component D8A (D8) GBLC05CI
+Added Member To Class: ClassName=OpAmp2 Member=Component D8B (D8) GBLC05CI
+Added Member To Class: ClassName=OpAmp1 Member=Component D9A (D9) GBLC05CI
+Added Member To Class: ClassName=OpAmp2 Member=Component D9B (D9) GBLC05CI
+Added Member To Class: ClassName=OpAmp1 Member=Component D10A (D10) GBLC05CI
+Added Member To Class: ClassName=OpAmp2 Member=Component D10B (D10) GBLC05CI
+Added Member To Class: ClassName=OpAmp1 Member=Component D11A (D11) GBLC05CI
+Added Member To Class: ClassName=OpAmp2 Member=Component D11B (D11) GBLC05CI
+Added Member To Class: ClassName=OpAmp1 Member=Component D12A (D12) GBLC05CI
+Added Member To Class: ClassName=OpAmp2 Member=Component D12B (D12) GBLC05CI
+Added Member To Class: ClassName=OpAmp1 Member=Component D13A (D13) GBLC05CI
+Added Member To Class: ClassName=OpAmp2 Member=Component D13B (D13) GBLC05CI
+Added Member To Class: ClassName=OpAmp1 Member=Component R65A (R65) 100R
+Added Member To Class: ClassName=OpAmp2 Member=Component R65B (R65) 100R
+Added Member To Class: ClassName=OpAmp1 Member=Component R66A (R66) 100R
+Added Member To Class: ClassName=OpAmp2 Member=Component R66B (R66) 100R
+Added Member To Class: ClassName=OpAmp1 Member=Component R67A (R67) 100R
+Added Member To Class: ClassName=OpAmp2 Member=Component R67B (R67) 100R
+Added Member To Class: ClassName=OpAmp1 Member=Component R68A (R68) 100R
+Added Member To Class: ClassName=OpAmp2 Member=Component R68B (R68) 100R
+Added Member To Class: ClassName=OpAmp1 Member=Component R69A (R69) 100R
+Added Member To Class: ClassName=OpAmp2 Member=Component R69B (R69) 100R
+Added Member To Class: ClassName=OpAmp1 Member=Component R70A (R70) 100R
+Added Member To Class: ClassName=OpAmp2 Member=Component R70B (R70) 100R
+Added Member To Class: ClassName=OpAmp1 Member=Component R71A (R71) 100R
+Added Member To Class: ClassName=OpAmp2 Member=Component R71B (R71) 100R
+Added Member To Class: ClassName=OpAmp1 Member=Component R72A (R72) 100R
+Added Member To Class: ClassName=OpAmp2 Member=Component R72B (R72) 100R

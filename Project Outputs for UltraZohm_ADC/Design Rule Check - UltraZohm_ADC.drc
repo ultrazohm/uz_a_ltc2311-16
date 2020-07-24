@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\ga27hem\ultrazohm_analog_ltc2311-16_3vxx\UltraZohm_ADC.PcbDoc
-Date     : 23.07.2020
-Time     : 20:54:17
+Date     : 24.07.2020
+Time     : 13:42:37
 
 Processing Rule : Clearance Constraint (Gap=3.5mil) (All),(All)
 Rule Violations :0
@@ -56,12 +56,18 @@ Processing Rule : Board Clearance Constraint (Gap=0mil) (OnLayer('Top Overlay') 
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=10mil) (All)
-Rule Violations :0
+   Violation between Matched Net Lengths: Between Net NetC23A_1 And Net NetC75A_1 Actual Difference against NetC23A_1 is: 16.642mil, Tolerance : 10mil. 
+   Violation between Matched Net Lengths: Between Net NetC23B_1 And Net NetC75B_1 Actual Difference against NetC23B_1 is: 18.548mil, Tolerance : 10mil. 
+   Violation between Matched Net Lengths: Between Net NetC76B_1 And Net NetC77B_1 Actual Difference against NetC76B_1 is: 15.308mil, Tolerance : 10mil. 
+   Violation between Matched Net Lengths: Between Net NetC78B_1 And Net NetC79B_1 Actual Difference against NetC78B_1 is: 16.375mil, Tolerance : 10mil. 
+   Violation between Matched Net Lengths: Between Net NetC80A_1 And Net NetC81A_1 Actual Difference against NetC80A_1 is: 17.267mil, Tolerance : 10mil. 
+   Violation between Matched Net Lengths: Between Net NetC80B_1 And Net NetC81B_1 Actual Difference against NetC80B_1 is: 17.644mil, Tolerance : 10mil. 
+Rule Violations :6
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 4
+Violations Detected : 10
 Waived Violations : 0
 Time Elapsed        : 00:00:06
