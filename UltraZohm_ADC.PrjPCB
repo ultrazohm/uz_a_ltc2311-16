@@ -326,20 +326,20 @@ DocumentPath=Project Outputs for UltraZohm_ADC\Design Rule Check - UltraZohm_ADC
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Author
-Value=E.Liegmann
+Name=ProjectRevision
+Value=3v02
 
 [Parameter2]
-Name=Date
-Value=01/20
-
-[Parameter3]
 Name=ProjectName
 Value=UltraZohm_Analog_LTC2311-16
 
+[Parameter3]
+Name=Date
+Value=07/20
+
 [Parameter4]
-Name=ProjectRevision
-Value=3v02
+Name=Author
+Value=S.Lukas
 
 [Configuration1]
 Name=Sources

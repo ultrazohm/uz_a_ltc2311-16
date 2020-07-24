@@ -1,0 +1,80 @@
+Change Component Comment : Designator=TP24A Old Comment=Testpoint 1mm New Comment=+
+Change Component Comment : Designator=TP24B Old Comment=Testpoint 1mm New Comment=+
+Change Component Comment : Designator=TP26A Old Comment=Testpoint 1mm New Comment=+
+Change Component Comment : Designator=TP26B Old Comment=Testpoint 1mm New Comment=+
+Change Component Comment : Designator=TP28A Old Comment=Testpoint 1mm New Comment=+
+Change Component Comment : Designator=TP28B Old Comment=Testpoint 1mm New Comment=+
+Change Component Comment : Designator=TP30A Old Comment=Testpoint 1mm New Comment=+
+Change Component Comment : Designator=TP30B Old Comment=Testpoint 1mm New Comment=+
+Change Component Comment : Designator=TP25A Old Comment=Testpoint 1mm New Comment=-
+Change Component Comment : Designator=TP25B Old Comment=Testpoint 1mm New Comment=-
+Change Component Comment : Designator=TP27A Old Comment=Testpoint 1mm New Comment=-
+Change Component Comment : Designator=TP27B Old Comment=Testpoint 1mm New Comment=-
+Change Component Comment : Designator=TP29A Old Comment=Testpoint 1mm New Comment=-
+Change Component Comment : Designator=TP29B Old Comment=Testpoint 1mm New Comment=-
+Change Component Comment : Designator=TP31A Old Comment=Testpoint 1mm New Comment=-
+Change Component Comment : Designator=TP31B Old Comment=Testpoint 1mm New Comment=-
+Change component parameters: Designator = "TP24A"; Footprint = "TP_1mm"; UniqueID = "\BPYJDBSU\JTLOBBOU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "+"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP24B"; Footprint = "TP_1mm"; UniqueID = "\DCHOILRF\JTLOBBOU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "+"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP25A"; Footprint = "TP_1mm"; UniqueID = "\BPYJDBSU\XPYDILGM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP25B"; Footprint = "TP_1mm"; UniqueID = "\DCHOILRF\XPYDILGM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP26A"; Footprint = "TP_1mm"; UniqueID = "\BPYJDBSU\VLLXXYJU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "+"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP26B"; Footprint = "TP_1mm"; UniqueID = "\DCHOILRF\VLLXXYJU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "+"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP27A"; Footprint = "TP_1mm"; UniqueID = "\BPYJDBSU\NWNCBYUQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP27B"; Footprint = "TP_1mm"; UniqueID = "\DCHOILRF\NWNCBYUQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP28A"; Footprint = "TP_1mm"; UniqueID = "\BPYJDBSU\ABQGXDAG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "+"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP28B"; Footprint = "TP_1mm"; UniqueID = "\DCHOILRF\ABQGXDAG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "+"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP29A"; Footprint = "TP_1mm"; UniqueID = "\BPYJDBSU\UWUIKABN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP29B"; Footprint = "TP_1mm"; UniqueID = "\DCHOILRF\UWUIKABN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP30A"; Footprint = "TP_1mm"; UniqueID = "\BPYJDBSU\UUPQUVVF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "+"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP30B"; Footprint = "TP_1mm"; UniqueID = "\DCHOILRF\UUPQUVVF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "+"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP31A"; Footprint = "TP_1mm"; UniqueID = "\BPYJDBSU\QBVXTHUU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP31B"; Footprint = "TP_1mm"; UniqueID = "\DCHOILRF\QBVXTHUU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "-"; VariantName = "[No Variations]"
