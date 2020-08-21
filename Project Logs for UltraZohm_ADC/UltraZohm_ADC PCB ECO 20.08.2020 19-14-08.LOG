@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=Buffer1A_P Pin=P1A-1
+Removed Pin From Net: NetName=Buffer1A_N Pin=P1A-2
+Removed Pin From Net: NetName=Buffer2A_P Pin=P1A-3
+Removed Pin From Net: NetName=Buffer2A_N Pin=P1A-4
+Removed Pin From Net: NetName=Buffer1B_P Pin=P1B-1
+Removed Pin From Net: NetName=Buffer1B_N Pin=P1B-2
+Removed Pin From Net: NetName=Buffer2B_P Pin=P1B-3
+Removed Pin From Net: NetName=Buffer2B_N Pin=P1B-4
+Added Pin To Net: NetName=Buffer1A_N Pin=P1A-1
+Added Pin To Net: NetName=Buffer2A_N Pin=P1A-2
+Added Pin To Net: NetName=Buffer1A_P Pin=P1A-3
+Added Pin To Net: NetName=Buffer2A_P Pin=P1A-4
+Added Pin To Net: NetName=Buffer1B_N Pin=P1B-1
+Added Pin To Net: NetName=Buffer2B_N Pin=P1B-2
+Added Pin To Net: NetName=Buffer1B_P Pin=P1B-3
+Added Pin To Net: NetName=Buffer2B_P Pin=P1B-4
