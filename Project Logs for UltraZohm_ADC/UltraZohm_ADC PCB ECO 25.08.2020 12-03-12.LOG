@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=ACLK_P Pin=X1-17
+Removed Pin From Net: NetName=ACLK_N Pin=X1-19
+Added Pin To Net: NetName=ANL_01_P Pin=X1-17
+Added Pin To Net: NetName=ANL_01_N Pin=X1-19

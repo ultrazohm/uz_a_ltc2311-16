@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=ANL_02_P Pin=R74-1
+Removed Pin From Net: NetName=ANL_02_N Pin=R75-1
+Removed Pin From Net: NetName=ACLK_P Pin=R76-2
+Removed Pin From Net: NetName=ANL_02_P Pin=R76-3
+Removed Pin From Net: NetName=ACLK_N Pin=R77-2
+Removed Pin From Net: NetName=ANL_02_N Pin=R77-3
+Removed Member From Class: ClassName=U_CarrierConnector Member=R76
+Removed Member From Class: ClassName=U_CarrierConnector Member=R77
+Added Pin To Net: NetName=BCLK_P Pin=R74-1
+Added Pin To Net: NetName=BCLK_N Pin=R75-1
+Added Pin To Net: NetName=ACLK_P Pin=X1-17
+Added Pin To Net: NetName=ACLK_N Pin=X1-19
