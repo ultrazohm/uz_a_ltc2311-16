@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=Buffer3A_N Pin=P1A-2
-Removed Pin From Net: NetName=Buffer3B_N Pin=P1B-2
-Added Pin To Net: NetName=Buffer1A_N Pin=P1A-2
-Added Pin To Net: NetName=Buffer1B_N Pin=P1B-2

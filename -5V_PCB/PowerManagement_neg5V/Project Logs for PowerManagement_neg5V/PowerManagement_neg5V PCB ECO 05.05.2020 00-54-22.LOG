@@ -1,6 +1,0 @@
-Change Component Comment : Designator=TP6 Old Comment=Testpoint 1mm New Comment=FBneg
-Change Component Comment : Designator=TP4 Old Comment=Testpoint 1mm New Comment=SWneg
-Change Component Comment : Designator=TP5 Old Comment=Testpoint 1mm New Comment=VINneg
-Change Component Comment : Designator=TP3 Old Comment=VCC New Comment=+5V
-Change Component Comment : Designator=TP7 Old Comment=VCC New Comment=-5V
-Change Component Comment : Designator=TP1 Old Comment=VIN New Comment=VINpos
