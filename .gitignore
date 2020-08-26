@@ -1,3 +1,8 @@
 History/
 __Previews/
 *.raw
+*.LOG
+*.htm
+*.PrjPCBStructure
+*.drc
+*.html

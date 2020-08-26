@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=ANL_02_P Pin=R76-1
-Removed Pin From Net: NetName=ANL_01_P Pin=R76-3
-Removed Pin From Net: NetName=ANL_02_N Pin=R77-1
-Removed Pin From Net: NetName=ANL_01_N Pin=R77-3
-Added Pin To Net: NetName=ANL_01_P Pin=R76-1
-Added Pin To Net: NetName=ANL_02_P Pin=R76-3
-Added Pin To Net: NetName=ANL_01_N Pin=R77-1
-Added Pin To Net: NetName=ANL_02_N Pin=R77-3
