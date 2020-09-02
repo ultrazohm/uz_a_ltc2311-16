@@ -1,14 +1,14 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 15:04:11 On 27.07.2020
+Start Output Generation At 14:27:37 On 02.09.2020
 
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [Buffer] of Project [UltraZohm_ADC.PrjPCB]
-   Generated File[BOM_UltraZohm_ADC_3v02.xlsx]
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [Buffer Single Clock Pair] of PCB Document [UltraZohm_ADC.PcbDoc]
+   Generated File[PickPlace_UltraZohm_ADC_3v03.txt]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 15:05:07 On 27.07.2020
+Finished Output Generation At 14:27:41 On 02.09.2020
