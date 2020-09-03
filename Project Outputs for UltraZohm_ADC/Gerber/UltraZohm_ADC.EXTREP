@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: UltraZohm_ADC.GBR   02.09.2020  14:01:17
+Gerber File Extension Report For: UltraZohm_ADC.GBR   03.09.2020  09:13:47
 ------------------------------------------------------------------------------------------
 
 
@@ -9,12 +9,12 @@ Layer Extension     Layer Description
 .GTO                Top Overlay                             
 .GTP                Top Paste                               
 .GTS                Top Solder                              
-.GTL                Top Layer                               
+.GTL                Top                                     
 .G1                 GND                                     
 .G2                 VCC                                     
-.GBL                Bottom Layer                            
+.GBL                Bottom                                  
 .GBS                Bottom Solder                           
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
-.GM1                Mechanical 1                            
+.GM1                M1                                      
 ------------------------------------------------------------------------------------------
