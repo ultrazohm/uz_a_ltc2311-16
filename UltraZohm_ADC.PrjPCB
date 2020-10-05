@@ -566,7 +566,7 @@ UniqueID=026C8FF9-DA79-4D8D-9260-230522DB09FC
 Description=Buffer Single Clock Pair
 AllowFabrication=0
 ParameterCount=0
-VariationCount=34
+VariationCount=35
 Variation1=Designator=R3|UniqueId=\LLLSCVGB\ENCEQRYX|Kind=1|AlternatePart= 
 Variation2=Designator=R4|UniqueId=\LLLSCVGB\DCYIVTMO|Kind=1|AlternatePart= 
 Variation3=Designator=R6|UniqueId=\LLLSCVGB\SXQOVNSK|Kind=1|AlternatePart= 
@@ -649,81 +649,78 @@ Variation31=Designator=R59|UniqueId=\LLLSCVGB\SGPEULGY|Kind=1|AlternatePart=
 Variation32=Designator=C59|UniqueId=\KUYADNDL\ESGFEOUL|Kind=1|AlternatePart= 
 Variation33=Designator=C72|UniqueId=\KUYADNDL\MBBYGCRE|Kind=1|AlternatePart= 
 Variation34=Designator=R39|UniqueId=\KUYADNDL\OXIOCUPD|Kind=1|AlternatePart= 
+Variation35=Designator=L7|UniqueId=\LLLSCVGB\YHSVLKIV|Kind=1|AlternatePart= 
 ParamVariationCount=24
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for UltraZohm_ADC\BOM\BOM_UltraZohm_ADC_3v03.xls
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for UltraZohm_ADC\Pick Place\PickPlace_UltraZohm_ADC_3v03.txt
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for UltraZohm_ADC\NC Drill\UltraZohm_ADC.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.G1
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.G2
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for UltraZohm_ADC\NC Drill\UltraZohm_ADC.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.REP
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for UltraZohm_ADC\NC Drill\UltraZohm_ADC.TXT
 DItemRevisionGUID=
 
@@ -869,7 +866,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=PDFCreator
+TargetPrinter=Ricoh_printfellow
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
