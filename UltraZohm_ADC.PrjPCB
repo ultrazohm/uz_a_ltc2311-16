@@ -603,74 +603,70 @@ Variation33=Designator=L7|UniqueId=\YNEKQYNE\RXROGLZA|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for UltraZohm_ADC\Pick Place\PickPlace_UltraZohm_ADC_3v03.txt
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for UltraZohm_ADC\NC Drill\UltraZohm_ADC.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.G1
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.G2
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for UltraZohm_ADC\NC Drill\UltraZohm_ADC.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.REP
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for UltraZohm_ADC\Gerber\UltraZohm_ADC.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for UltraZohm_ADC\NC Drill\UltraZohm_ADC.TXT
 DItemRevisionGUID=
 
@@ -710,7 +706,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=PDFCreator
+TargetPrinter=Canon MG5300 series Printer WS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -816,7 +812,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=PDFCreator
+TargetPrinter=Canon MG5300 series Printer WS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -886,11 +882,17 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=PDFCreator
+TargetPrinter=Canon MG5300 series Printer WS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -912,7 +914,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=PDFCreator
+TargetPrinter=Canon MG5300 series Printer WS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -984,7 +986,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=PDFCreator
+TargetPrinter=Canon MG5300 series Printer WS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -1021,7 +1023,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=PDFCreator
+TargetPrinter=Canon MG5300 series Printer WS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1201,7 +1203,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=PDFCreator
+TargetPrinter=Canon MG5300 series Printer WS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Server's components states check
@@ -1245,7 +1247,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=PDFCreator
+TargetPrinter=Canon MG5300 series Printer WS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1302,41 +1304,11 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=PDFCreator
+TargetPrinter=Canon MG5300 series Printer WS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1462,6 +1434,8 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1530,6 +1504,8 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1677,6 +1653,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1809,6 +1786,7 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=1
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=UltraZohm_ADC.SCHLIB
@@ -1866,6 +1844,7 @@ ModelUpdate0=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
