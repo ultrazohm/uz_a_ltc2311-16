@@ -1,4 +1,4 @@
-[Design]
+﻿[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -23,11 +23,13 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=1
 PowerPortNamesTakePriority=0
+AutoSheetNumbering=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
+IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -246,7 +248,7 @@ UniqueID=D2DE88B5-0CEA-4C5F-A337-AD0007C5F62D
 Description=No Buffer
 AllowFabrication=0
 ParameterCount=0
-VariationCount=32
+VariationCount=30
 Variation1=Designator=U11B|UniqueId=\FZJTGWNN\KTOHPYEP|Kind=1|AlternatePart= 
 Variation2=Designator=U11A|UniqueId=\OKDAMRGW\KTOHPYEP|Kind=1|AlternatePart= 
 Variation3=Designator=U9B|UniqueId=\FZJTGWNN\KVJISEYF|Kind=1|AlternatePart= 
@@ -277,8 +279,6 @@ Variation27=Designator=R3|UniqueId=\YNEKQYNE\UEWTKMRM|Kind=1|AlternatePart=
 Variation28=Designator=C59|UniqueId=\TGBOTCQD\ESGFEOUL|Kind=1|AlternatePart= 
 Variation29=Designator=C72|UniqueId=\TGBOTCQD\MBBYGCRE|Kind=1|AlternatePart= 
 Variation30=Designator=R39|UniqueId=\TGBOTCQD\OXIOCUPD|Kind=1|AlternatePart= 
-Variation31=Designator=R74|UniqueId=\YNEKQYNE\TLWLULHP|Kind=1|AlternatePart= 
-Variation32=Designator=R75|UniqueId=\YNEKQYNE\TONJECBW|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -286,7 +286,7 @@ UniqueID=9357CDC7-DE4E-409B-A6DC-6F0D66ED29D2
 Description=Current Signal
 AllowFabrication=0
 ParameterCount=0
-VariationCount=40
+VariationCount=38
 Variation1=Designator=R24A|UniqueId=\OKDAMRGW\AGDHGTVN|Kind=1|AlternatePart= 
 Variation2=Designator=R24B|UniqueId=\FZJTGWNN\AGDHGTVN|Kind=1|AlternatePart= 
 Variation3=Designator=R21A|UniqueId=\OKDAMRGW\MXBUAFIK|Kind=1|AlternatePart= 
@@ -517,56 +517,14 @@ ParamDesignator96=R65A
 Variation36=Designator=C59|UniqueId=\TGBOTCQD\ESGFEOUL|Kind=1|AlternatePart= 
 Variation37=Designator=C72|UniqueId=\TGBOTCQD\MBBYGCRE|Kind=1|AlternatePart= 
 Variation38=Designator=R39|UniqueId=\TGBOTCQD\OXIOCUPD|Kind=1|AlternatePart= 
-Variation39=Designator=R74|UniqueId=\YNEKQYNE\TLWLULHP|Kind=1|AlternatePart= 
-Variation40=Designator=R75|UniqueId=\YNEKQYNE\TONJECBW|Kind=1|AlternatePart= 
 ParamVariationCount=96
 
 [ProjectVariant3]
-UniqueID=2FFC1313-0AD4-4DA2-B9A2-8744E0112C63
-Description=Buffer Shared Conversion
-AllowFabrication=0
-ParameterCount=0
-VariationCount=32
-Variation1=Designator=R22B|UniqueId=\FZJTGWNN\VCJWWWYA|Kind=1|AlternatePart= 
-Variation2=Designator=R31B|UniqueId=\FZJTGWNN\JFSFBWTP|Kind=1|AlternatePart= 
-Variation3=Designator=R42B|UniqueId=\FZJTGWNN\CCTEPWRX|Kind=1|AlternatePart= 
-Variation4=Designator=R31A|UniqueId=\OKDAMRGW\JFSFBWTP|Kind=1|AlternatePart= 
-Variation5=Designator=R51A|UniqueId=\OKDAMRGW\HXBFLESY|Kind=1|AlternatePart= 
-Variation6=Designator=R51B|UniqueId=\FZJTGWNN\HXBFLESY|Kind=1|AlternatePart= 
-Variation7=Designator=R42A|UniqueId=\OKDAMRGW\CCTEPWRX|Kind=1|AlternatePart= 
-Variation8=Designator=R22A|UniqueId=\OKDAMRGW\VCJWWWYA|Kind=1|AlternatePart= 
-Variation9=Designator=R27A|UniqueId=\OKDAMRGW\RSFTFLGU|Kind=1|AlternatePart= 
-Variation10=Designator=R24A|UniqueId=\OKDAMRGW\AGDHGTVN|Kind=1|AlternatePart= 
-Variation11=Designator=R21A|UniqueId=\OKDAMRGW\MXBUAFIK|Kind=1|AlternatePart= 
-Variation12=Designator=R21B|UniqueId=\FZJTGWNN\MXBUAFIK|Kind=1|AlternatePart= 
-Variation13=Designator=R24B|UniqueId=\FZJTGWNN\AGDHGTVN|Kind=1|AlternatePart= 
-Variation14=Designator=R27B|UniqueId=\FZJTGWNN\RSFTFLGU|Kind=1|AlternatePart= 
-Variation15=Designator=R15A|UniqueId=\OKDAMRGW\YUPFXWHN|Kind=1|AlternatePart= 
-Variation16=Designator=R16A|UniqueId=\OKDAMRGW\LHAQICXJ|Kind=1|AlternatePart= 
-Variation17=Designator=R15B|UniqueId=\FZJTGWNN\YUPFXWHN|Kind=1|AlternatePart= 
-Variation18=Designator=R16B|UniqueId=\FZJTGWNN\LHAQICXJ|Kind=1|AlternatePart= 
-Variation19=Designator=R19B|UniqueId=\FZJTGWNN\UJQANQNH|Kind=1|AlternatePart= 
-Variation20=Designator=R26B|UniqueId=\FZJTGWNN\KHDMRVFG|Kind=1|AlternatePart= 
-Variation21=Designator=R18B|UniqueId=\FZJTGWNN\FDSAHCXW|Kind=1|AlternatePart= 
-Variation22=Designator=R26A|UniqueId=\OKDAMRGW\KHDMRVFG|Kind=1|AlternatePart= 
-Variation23=Designator=R19A|UniqueId=\OKDAMRGW\UJQANQNH|Kind=1|AlternatePart= 
-Variation24=Designator=R18A|UniqueId=\OKDAMRGW\FDSAHCXW|Kind=1|AlternatePart= 
-Variation25=Designator=R4|UniqueId=\YNEKQYNE\HIHXUOUS|Kind=1|AlternatePart= 
-Variation26=Designator=R6|UniqueId=\YNEKQYNE\WZHBQOPD|Kind=1|AlternatePart= 
-Variation27=Designator=R3|UniqueId=\YNEKQYNE\UEWTKMRM|Kind=1|AlternatePart= 
-Variation28=Designator=R74|UniqueId=\YNEKQYNE\TLWLULHP|Kind=1|AlternatePart= 
-Variation29=Designator=R75|UniqueId=\YNEKQYNE\TONJECBW|Kind=1|AlternatePart= 
-Variation30=Designator=C59|UniqueId=\TGBOTCQD\ESGFEOUL|Kind=1|AlternatePart= 
-Variation31=Designator=C72|UniqueId=\TGBOTCQD\MBBYGCRE|Kind=1|AlternatePart= 
-Variation32=Designator=R39|UniqueId=\TGBOTCQD\OXIOCUPD|Kind=1|AlternatePart= 
-ParamVariationCount=0
-
-[ProjectVariant4]
 UniqueID=026C8FF9-DA79-4D8D-9260-230522DB09FC
 Description=Buffer Single Clock Pair
 AllowFabrication=0
 ParameterCount=0
-VariationCount=33
+VariationCount=30
 Variation1=Designator=R3|UniqueId=\YNEKQYNE\UEWTKMRM|Kind=1|AlternatePart= 
 Variation2=Designator=R4|UniqueId=\YNEKQYNE\HIHXUOUS|Kind=1|AlternatePart= 
 Variation3=Designator=R6|UniqueId=\YNEKQYNE\WZHBQOPD|Kind=1|AlternatePart= 
@@ -594,12 +552,9 @@ Variation24=Designator=R42A|UniqueId=\OKDAMRGW\CCTEPWRX|Kind=1|AlternatePart=
 Variation25=Designator=R42B|UniqueId=\FZJTGWNN\CCTEPWRX|Kind=1|AlternatePart= 
 Variation26=Designator=R51A|UniqueId=\OKDAMRGW\HXBFLESY|Kind=1|AlternatePart= 
 Variation27=Designator=R51B|UniqueId=\FZJTGWNN\HXBFLESY|Kind=1|AlternatePart= 
-Variation28=Designator=R58|UniqueId=\YNEKQYNE\KQQORBSE|Kind=1|AlternatePart= 
-Variation29=Designator=R59|UniqueId=\YNEKQYNE\QYGMTWZN|Kind=1|AlternatePart= 
-Variation30=Designator=C59|UniqueId=\TGBOTCQD\ESGFEOUL|Kind=1|AlternatePart= 
-Variation31=Designator=C72|UniqueId=\TGBOTCQD\MBBYGCRE|Kind=1|AlternatePart= 
-Variation32=Designator=R39|UniqueId=\TGBOTCQD\OXIOCUPD|Kind=1|AlternatePart= 
-Variation33=Designator=L7|UniqueId=\YNEKQYNE\RXROGLZA|Kind=1|AlternatePart= 
+Variation28=Designator=C59|UniqueId=\TGBOTCQD\ESGFEOUL|Kind=1|AlternatePart= 
+Variation29=Designator=C72|UniqueId=\TGBOTCQD\MBBYGCRE|Kind=1|AlternatePart= 
+Variation30=Designator=R39|UniqueId=\TGBOTCQD\OXIOCUPD|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -671,24 +626,28 @@ DocumentPath=Project Outputs for UltraZohm_ADC\NC Drill\UltraZohm_ADC.TXT
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Author
-Value=S.Lukas
-
-[Parameter2]
-Name=Date
-Value=09/20
-
-[Parameter3]
-Name=ProjectAuthor
+Name=AuthorParam
 Value=Simon Lukas
 
-[Parameter4]
+[Parameter2]
+Name=ProjectRevision
+Value=Rev04
+
+[Parameter3]
 Name=ProjectName
 Value=UltraZohm_Analog_LTC2311-16
 
+[Parameter4]
+Name=ProjectAuthor
+Value=Simon Lukas
+
 [Parameter5]
-Name=ProjectRevision
-Value=3v03
+Name=Date
+Value=09/20
+
+[Parameter6]
+Name=Author
+Value=S.Lukas
 
 [Configuration1]
 Name=Sources
@@ -706,7 +665,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Canon MG5300 series Printer WS
+TargetPrinter=OKI B432(PS)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -808,12 +767,42 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=SIMetrixNetlist
+OutputName21=SIMetrix
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+OutputType22=SIMPLISNetlist
+OutputName22=SIMPLIS
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=XSpiceNetlist
+OutputName23=XSpice Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Canon MG5300 series Printer WS
+TargetPrinter=OKI B432(PS)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -892,7 +881,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Canon MG5300 series Printer WS
+TargetPrinter=OKI B432(PS)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -914,7 +903,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Canon MG5300 series Printer WS
+TargetPrinter=OKI B432(PS)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -986,7 +975,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Canon MG5300 series Printer WS
+TargetPrinter=OKI B432(PS)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -1023,7 +1012,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Canon MG5300 series Printer WS
+TargetPrinter=OKI B432(PS)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1127,83 +1116,11 @@ OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType18=Text Print
-OutputName18=Text Print
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType19=Text Print
-OutputName19=Text Print
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType20=Text Print
-OutputName20=Text Print
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType21=Text Print
-OutputName21=Text Print
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType22=Text Print
-OutputName22=Text Print
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType23=Text Print
-OutputName23=Text Print
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
-PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType24=Text Print
-OutputName24=Text Print
-OutputDocumentPath24=
-OutputVariantName24=
-OutputDefault24=0
-PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType25=Text Print
-OutputName25=Text Print
-OutputDocumentPath25=
-OutputVariantName25=
-OutputDefault25=0
-PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType26=Text Print
-OutputName26=Text Print
-OutputDocumentPath26=
-OutputVariantName26=
-OutputDefault26=0
-PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType27=Text Print
-OutputName27=Text Print
-OutputDocumentPath27=
-OutputVariantName27=
-OutputDefault27=0
-PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType28=Text Print
-OutputName28=Text Print
-OutputDocumentPath28=
-OutputVariantName28=
-OutputDefault28=0
-PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType29=Text Print
-OutputName29=Text Print
-OutputDocumentPath29=
-OutputVariantName29=
-OutputDefault29=0
-PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Canon MG5300 series Printer WS
+TargetPrinter=OKI B432(PS)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Server's components states check
@@ -1247,7 +1164,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Canon MG5300 series Printer WS
+TargetPrinter=OKI B432(PS)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1308,7 +1225,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Canon MG5300 series Printer WS
+TargetPrinter=OKI B432(PS)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1630,6 +1547,9 @@ Type119=3
 MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
+Type123=1
+Type124=1
+Type125=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -2350,12 +2270,12 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
