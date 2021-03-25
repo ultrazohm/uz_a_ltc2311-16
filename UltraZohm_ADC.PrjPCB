@@ -91,23 +91,6 @@ GenerateClassCluster=0
 DocumentUniqueId=QVPLBPCX
 
 [Document4]
-DocumentPath=OpAmp.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BRPROXWQ
-
-[Document5]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -124,7 +107,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JLUOLEHG
 
-[Document6]
+[Document5]
 DocumentPath=CarrierConnector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -141,7 +124,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IDKKSGUP
 
-[Document7]
+[Document6]
 DocumentPath=AnalogConnector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -158,7 +141,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IFJKWIXA
 
-[Document8]
+[Document7]
 DocumentPath=UZohmADC.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -175,7 +158,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UJRVDYWO
 
-[Document9]
+[Document8]
 DocumentPath=UltraZohm_ADC.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -192,7 +175,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document9]
 DocumentPath=OutputJob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -209,7 +192,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document10]
 DocumentPath=UltraZohm_ADC.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -226,8 +209,59 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FYLURJCR
 
-[Document12]
+[Document11]
 DocumentPath=UltraZohm_ADC.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document12]
+DocumentPath=OpAmp_CH1.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TFKGCSXX
+
+[Document13]
+DocumentPath=..\PCB_Libraries\templates\PCB_Logo\PCB_Logo.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document14]
+DocumentPath=..\PCB_Libraries\templates\PCB_Logo\PCB_Logo.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -626,28 +660,28 @@ DocumentPath=Project Outputs for UltraZohm_ADC\NC Drill\UltraZohm_ADC.TXT
 DItemRevisionGUID=
 
 [Parameter1]
+Name=Author
+Value=S.Lukas
+
+[Parameter2]
 Name=AuthorParam
 Value=Simon Lukas
 
-[Parameter2]
-Name=ProjectRevision
-Value=Rev04
-
 [Parameter3]
-Name=ProjectName
-Value=UltraZohm_Analog_LTC2311-16
+Name=Date
+Value=09/20
 
 [Parameter4]
 Name=ProjectAuthor
 Value=Simon Lukas
 
 [Parameter5]
-Name=Date
-Value=09/20
+Name=ProjectName
+Value=UltraZohm_Analog_LTC2311-16
 
 [Parameter6]
-Name=Author
-Value=S.Lukas
+Name=ProjectRevision
+Value=Rev04
 
 [Configuration1]
 Name=Sources
