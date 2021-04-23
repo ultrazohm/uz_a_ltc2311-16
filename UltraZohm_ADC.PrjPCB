@@ -67,7 +67,7 @@ AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -243,42 +243,64 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TFKGCSXX
 
+[Document13]
+DocumentPath=Power_Neg.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VWNPKLQL
+
 [ProjectVariant1]
 UniqueID=D2DE88B5-0CEA-4C5F-A337-AD0007C5F62D
 Description=No Buffer
 AllowFabrication=0
 ParameterCount=0
-VariationCount=30
-Variation1=Designator=U11B|UniqueId=\FZJTGWNN\KTOHPYEP|Kind=1|AlternatePart= 
-Variation2=Designator=U11A|UniqueId=\OKDAMRGW\KTOHPYEP|Kind=1|AlternatePart= 
-Variation3=Designator=U9B|UniqueId=\FZJTGWNN\KVJISEYF|Kind=1|AlternatePart= 
-Variation4=Designator=U9A|UniqueId=\OKDAMRGW\KVJISEYF|Kind=1|AlternatePart= 
-Variation5=Designator=U10B|UniqueId=\FZJTGWNN\BLRQLNEE|Kind=1|AlternatePart= 
-Variation6=Designator=U10A|UniqueId=\OKDAMRGW\BLRQLNEE|Kind=1|AlternatePart= 
-Variation7=Designator=R22B|UniqueId=\FZJTGWNN\VCJWWWYA|Kind=1|AlternatePart= 
-Variation8=Designator=R31B|UniqueId=\FZJTGWNN\JFSFBWTP|Kind=1|AlternatePart= 
-Variation9=Designator=R42B|UniqueId=\FZJTGWNN\CCTEPWRX|Kind=1|AlternatePart= 
-Variation10=Designator=R31A|UniqueId=\OKDAMRGW\JFSFBWTP|Kind=1|AlternatePart= 
-Variation11=Designator=R51A|UniqueId=\OKDAMRGW\HXBFLESY|Kind=1|AlternatePart= 
-Variation12=Designator=R51B|UniqueId=\FZJTGWNN\HXBFLESY|Kind=1|AlternatePart= 
-Variation13=Designator=R42A|UniqueId=\OKDAMRGW\CCTEPWRX|Kind=1|AlternatePart= 
-Variation14=Designator=R22A|UniqueId=\OKDAMRGW\VCJWWWYA|Kind=1|AlternatePart= 
-Variation15=Designator=C54A|UniqueId=\OKDAMRGW\BLSJMUWX|Kind=1|AlternatePart= 
-Variation16=Designator=C54B|UniqueId=\FZJTGWNN\BLSJMUWX|Kind=1|AlternatePart= 
-Variation17=Designator=C57B|UniqueId=\FZJTGWNN\IMIWIGHE|Kind=1|AlternatePart= 
-Variation18=Designator=C57A|UniqueId=\OKDAMRGW\IMIWIGHE|Kind=1|AlternatePart= 
-Variation19=Designator=C56B|UniqueId=\FZJTGWNN\TOKJKKAQ|Kind=1|AlternatePart= 
-Variation20=Designator=C56A|UniqueId=\OKDAMRGW\TOKJKKAQ|Kind=1|AlternatePart= 
-Variation21=Designator=C55B|UniqueId=\FZJTGWNN\XQNHJVEV|Kind=1|AlternatePart= 
-Variation22=Designator=C55A|UniqueId=\OKDAMRGW\XQNHJVEV|Kind=1|AlternatePart= 
-Variation23=Designator=U7A|UniqueId=\OKDAMRGW\DYVDAMNN|Kind=1|AlternatePart= 
-Variation24=Designator=U7B|UniqueId=\FZJTGWNN\DYVDAMNN|Kind=1|AlternatePart= 
-Variation25=Designator=R4|UniqueId=\YNEKQYNE\HIHXUOUS|Kind=1|AlternatePart= 
-Variation26=Designator=R6|UniqueId=\YNEKQYNE\WZHBQOPD|Kind=1|AlternatePart= 
-Variation27=Designator=R3|UniqueId=\YNEKQYNE\UEWTKMRM|Kind=1|AlternatePart= 
-Variation28=Designator=C59|UniqueId=\TGBOTCQD\ESGFEOUL|Kind=1|AlternatePart= 
-Variation29=Designator=C72|UniqueId=\TGBOTCQD\MBBYGCRE|Kind=1|AlternatePart= 
-Variation30=Designator=R39|UniqueId=\TGBOTCQD\OXIOCUPD|Kind=1|AlternatePart= 
+VariationCount=35
+Variation1=Designator=R22B|UniqueId=\2ETCGLXDP\DAGUVSXB|Kind=1|AlternatePart= 
+Variation2=Designator=R22A|UniqueId=\1ETCGLXDP\DAGUVSXB|Kind=1|AlternatePart= 
+Variation3=Designator=U7A|UniqueId=\1ETCGLXDP\LUDCUGHY|Kind=1|AlternatePart= 
+Variation4=Designator=U7B|UniqueId=\2ETCGLXDP\LUDCUGHY|Kind=1|AlternatePart= 
+Variation5=Designator=R4|UniqueId=\YNEKQYNE\HIHXUOUS|Kind=1|AlternatePart= 
+Variation6=Designator=R6|UniqueId=\YNEKQYNE\WZHBQOPD|Kind=1|AlternatePart= 
+Variation7=Designator=R3|UniqueId=\YNEKQYNE\UEWTKMRM|Kind=1|AlternatePart= 
+Variation8=Designator=C59|UniqueId=\KHMKSWFC\LTPICKSO|Kind=1|AlternatePart= 
+Variation9=Designator=C72|UniqueId=\KHMKSWFC\OUGIELHI|Kind=1|AlternatePart= 
+Variation10=Designator=R39|UniqueId=\KHMKSWFC\GOLRWCUU|Kind=1|AlternatePart= 
+Variation11=Designator=C47A|UniqueId=\1KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation12=Designator=C47H|UniqueId=\8KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation13=Designator=C47G|UniqueId=\7KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation14=Designator=C47F|UniqueId=\6KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation15=Designator=C47E|UniqueId=\5KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation16=Designator=C47D|UniqueId=\4KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation17=Designator=C47C|UniqueId=\3KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation18=Designator=C47B|UniqueId=\2KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation19=Designator=R26A|UniqueId=\1ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation20=Designator=R26B|UniqueId=\2ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation21=Designator=R26C|UniqueId=\3ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation22=Designator=R26D|UniqueId=\4ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation23=Designator=R26E|UniqueId=\5ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation24=Designator=R26F|UniqueId=\6ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation25=Designator=R26G|UniqueId=\7ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation26=Designator=R26H|UniqueId=\8ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation27=Designator=R27A|UniqueId=\1ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation28=Designator=R27C|UniqueId=\3ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation29=Designator=R27B|UniqueId=\2ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation30=Designator=R27D|UniqueId=\4ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation31=Designator=R27E|UniqueId=\5ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation32=Designator=R27F|UniqueId=\6ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation33=Designator=R27G|UniqueId=\7ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation34=Designator=R27H|UniqueId=\8ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation35=Designator=D8|UniqueId=\KHMKSWFC\WGHNZQPT|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -286,275 +308,123 @@ UniqueID=9357CDC7-DE4E-409B-A6DC-6F0D66ED29D2
 Description=Current Signal
 AllowFabrication=0
 ParameterCount=0
-VariationCount=38
-Variation1=Designator=R24A|UniqueId=\OKDAMRGW\AGDHGTVN|Kind=1|AlternatePart= 
-Variation2=Designator=R24B|UniqueId=\FZJTGWNN\AGDHGTVN|Kind=1|AlternatePart= 
-Variation3=Designator=R21A|UniqueId=\OKDAMRGW\MXBUAFIK|Kind=1|AlternatePart= 
-Variation4=Designator=R21B|UniqueId=\FZJTGWNN\MXBUAFIK|Kind=1|AlternatePart= 
-Variation5=Designator=R27A|UniqueId=\OKDAMRGW\RSFTFLGU|Kind=1|AlternatePart= 
-Variation6=Designator=R27B|UniqueId=\FZJTGWNN\RSFTFLGU|Kind=1|AlternatePart= 
-Variation7=Designator=R15A|UniqueId=\OKDAMRGW\YUPFXWHN|Kind=1|AlternatePart= 
-Variation8=Designator=R16A|UniqueId=\OKDAMRGW\LHAQICXJ|Kind=1|AlternatePart= 
-Variation9=Designator=R15B|UniqueId=\FZJTGWNN\YUPFXWHN|Kind=1|AlternatePart= 
-Variation10=Designator=R16B|UniqueId=\FZJTGWNN\LHAQICXJ|Kind=1|AlternatePart= 
-Variation11=Designator=R19B|UniqueId=\FZJTGWNN\UJQANQNH|Kind=1|AlternatePart= 
-Variation12=Designator=R26B|UniqueId=\FZJTGWNN\KHDMRVFG|Kind=1|AlternatePart= 
-Variation13=Designator=R18B|UniqueId=\FZJTGWNN\FDSAHCXW|Kind=1|AlternatePart= 
-Variation14=Designator=R26A|UniqueId=\OKDAMRGW\KHDMRVFG|Kind=1|AlternatePart= 
-Variation15=Designator=R19A|UniqueId=\OKDAMRGW\UJQANQNH|Kind=1|AlternatePart= 
-Variation16=Designator=R18A|UniqueId=\OKDAMRGW\FDSAHCXW|Kind=1|AlternatePart= 
-Variation17=Designator=R4|UniqueId=\YNEKQYNE\HIHXUOUS|Kind=1|AlternatePart= 
-Variation18=Designator=R6|UniqueId=\YNEKQYNE\WZHBQOPD|Kind=1|AlternatePart= 
-Variation19=Designator=R3|UniqueId=\YNEKQYNE\UEWTKMRM|Kind=1|AlternatePart= 
-Variation20=Designator=R72B|UniqueId=\FZJTGWNN\NTLYSVUU|Kind=0|AlternatePart==Value
+VariationCount=23
+Variation1=Designator=R15A|UniqueId=\1ETCGLXDP\IEGXNVCT|Kind=1|AlternatePart= 
+Variation2=Designator=R16A|UniqueId=\1ETCGLXDP\HRVNRQLF|Kind=1|AlternatePart= 
+Variation3=Designator=R15B|UniqueId=\2ETCGLXDP\IEGXNVCT|Kind=1|AlternatePart= 
+Variation4=Designator=R16B|UniqueId=\2ETCGLXDP\HRVNRQLF|Kind=1|AlternatePart= 
+Variation5=Designator=R4|UniqueId=\YNEKQYNE\HIHXUOUS|Kind=1|AlternatePart= 
+Variation6=Designator=R6|UniqueId=\YNEKQYNE\WZHBQOPD|Kind=1|AlternatePart= 
+Variation7=Designator=R3|UniqueId=\YNEKQYNE\UEWTKMRM|Kind=1|AlternatePart= 
+Variation8=Designator=R66B|UniqueId=\2ETCGLXDP\PQDGDLUZ|Kind=0|AlternatePart==Value
 ParamVariation1=ParameterName=Value|VariantValue=0R
-ParamDesignator1=R72B
+ParamDesignator1=R66B
 ParamVariation2=ParameterName=Comment|VariantValue==Value
-ParamDesignator2=R72B
+ParamDesignator2=R66B
 ParamVariation3=ParameterName=Tolerance|VariantValue= 
-ParamDesignator3=R72B
+ParamDesignator3=R66B
 ParamVariation4=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator4=R72B
+ParamDesignator4=R66B
 ParamVariation5=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator5=R72B
+ParamDesignator5=R66B
 ParamVariation6=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator6=R72B
-Variation21=Designator=R72A|UniqueId=\OKDAMRGW\NTLYSVUU|Kind=0|AlternatePart==Value
+ParamDesignator6=R66B
+Variation9=Designator=R66A|UniqueId=\1ETCGLXDP\PQDGDLUZ|Kind=0|AlternatePart==Value
 ParamVariation7=ParameterName=Value|VariantValue=0R
-ParamDesignator7=R72A
+ParamDesignator7=R66A
 ParamVariation8=ParameterName=Comment|VariantValue==Value
-ParamDesignator8=R72A
+ParamDesignator8=R66A
 ParamVariation9=ParameterName=Tolerance|VariantValue= 
-ParamDesignator9=R72A
+ParamDesignator9=R66A
 ParamVariation10=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator10=R72A
+ParamDesignator10=R66A
 ParamVariation11=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator11=R72A
+ParamDesignator11=R66A
 ParamVariation12=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator12=R72A
-Variation22=Designator=R71B|UniqueId=\FZJTGWNN\MIAGMJLI|Kind=0|AlternatePart==Value
+ParamDesignator12=R66A
+Variation10=Designator=R65B|UniqueId=\2ETCGLXDP\HKMWVAPK|Kind=0|AlternatePart==Value
 ParamVariation13=ParameterName=Value|VariantValue=0R
-ParamDesignator13=R71B
+ParamDesignator13=R65B
 ParamVariation14=ParameterName=Comment|VariantValue==Value
-ParamDesignator14=R71B
+ParamDesignator14=R65B
 ParamVariation15=ParameterName=Tolerance|VariantValue= 
-ParamDesignator15=R71B
+ParamDesignator15=R65B
 ParamVariation16=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator16=R71B
+ParamDesignator16=R65B
 ParamVariation17=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator17=R71B
+ParamDesignator17=R65B
 ParamVariation18=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator18=R71B
-Variation23=Designator=R71A|UniqueId=\OKDAMRGW\MIAGMJLI|Kind=0|AlternatePart==Value
+ParamDesignator18=R65B
+Variation11=Designator=R65A|UniqueId=\1ETCGLXDP\HKMWVAPK|Kind=0|AlternatePart==Value
 ParamVariation19=ParameterName=Value|VariantValue=0R
-ParamDesignator19=R71A
+ParamDesignator19=R65A
 ParamVariation20=ParameterName=Comment|VariantValue==Value
-ParamDesignator20=R71A
+ParamDesignator20=R65A
 ParamVariation21=ParameterName=Tolerance|VariantValue= 
-ParamDesignator21=R71A
+ParamDesignator21=R65A
 ParamVariation22=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator22=R71A
+ParamDesignator22=R65A
 ParamVariation23=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator23=R71A
+ParamDesignator23=R65A
 ParamVariation24=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator24=R71A
-Variation24=Designator=R70B|UniqueId=\FZJTGWNN\EHMQXCBJ|Kind=0|AlternatePart==Value
-ParamVariation25=ParameterName=Value|VariantValue=0R
-ParamDesignator25=R70B
-ParamVariation26=ParameterName=Comment|VariantValue==Value
-ParamDesignator26=R70B
-ParamVariation27=ParameterName=Tolerance|VariantValue= 
-ParamDesignator27=R70B
-ParamVariation28=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator28=R70B
-ParamVariation29=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator29=R70B
-ParamVariation30=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator30=R70B
-Variation25=Designator=R70A|UniqueId=\OKDAMRGW\EHMQXCBJ|Kind=0|AlternatePart==Value
-ParamVariation31=ParameterName=Value|VariantValue=0R
-ParamDesignator31=R70A
-ParamVariation32=ParameterName=Comment|VariantValue==Value
-ParamDesignator32=R70A
-ParamVariation33=ParameterName=Tolerance|VariantValue= 
-ParamDesignator33=R70A
-ParamVariation34=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator34=R70A
-ParamVariation35=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator35=R70A
-ParamVariation36=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator36=R70A
-Variation26=Designator=R69B|UniqueId=\FZJTGWNN\UPTAGYSY|Kind=0|AlternatePart==Value
-ParamVariation37=ParameterName=Value|VariantValue=0R
-ParamDesignator37=R69B
-ParamVariation38=ParameterName=Comment|VariantValue==Value
-ParamDesignator38=R69B
-ParamVariation39=ParameterName=Tolerance|VariantValue= 
-ParamDesignator39=R69B
-ParamVariation40=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator40=R69B
-ParamVariation41=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator41=R69B
-ParamVariation42=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator42=R69B
-Variation27=Designator=R69A|UniqueId=\OKDAMRGW\UPTAGYSY|Kind=0|AlternatePart==Value
-ParamVariation43=ParameterName=Value|VariantValue=0R
-ParamDesignator43=R69A
-ParamVariation44=ParameterName=Comment|VariantValue==Value
-ParamDesignator44=R69A
-ParamVariation45=ParameterName=Tolerance|VariantValue= 
-ParamDesignator45=R69A
-ParamVariation46=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator46=R69A
-ParamVariation47=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator47=R69A
-ParamVariation48=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator48=R69A
-Variation28=Designator=R68B|UniqueId=\FZJTGWNN\NYMJLCPS|Kind=0|AlternatePart==Value
-ParamVariation49=ParameterName=Value|VariantValue=0R
-ParamDesignator49=R68B
-ParamVariation50=ParameterName=Comment|VariantValue==Value
-ParamDesignator50=R68B
-ParamVariation51=ParameterName=Tolerance|VariantValue= 
-ParamDesignator51=R68B
-ParamVariation52=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator52=R68B
-ParamVariation53=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator53=R68B
-ParamVariation54=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator54=R68B
-Variation29=Designator=R68A|UniqueId=\OKDAMRGW\NYMJLCPS|Kind=0|AlternatePart==Value
-ParamVariation55=ParameterName=Value|VariantValue=0R
-ParamDesignator55=R68A
-ParamVariation56=ParameterName=Comment|VariantValue==Value
-ParamDesignator56=R68A
-ParamVariation57=ParameterName=Tolerance|VariantValue= 
-ParamDesignator57=R68A
-ParamVariation58=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator58=R68A
-ParamVariation59=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator59=R68A
-ParamVariation60=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator60=R68A
-Variation30=Designator=R67B|UniqueId=\FZJTGWNN\FSDCLJEG|Kind=0|AlternatePart==Value
-ParamVariation61=ParameterName=Value|VariantValue=0R
-ParamDesignator61=R67B
-ParamVariation62=ParameterName=Comment|VariantValue==Value
-ParamDesignator62=R67B
-ParamVariation63=ParameterName=Tolerance|VariantValue= 
-ParamDesignator63=R67B
-ParamVariation64=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator64=R67B
-ParamVariation65=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator65=R67B
-ParamVariation66=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator66=R67B
-Variation31=Designator=R67A|UniqueId=\OKDAMRGW\FSDCLJEG|Kind=0|AlternatePart==Value
-ParamVariation67=ParameterName=Value|VariantValue=0R
-ParamDesignator67=R67A
-ParamVariation68=ParameterName=Comment|VariantValue==Value
-ParamDesignator68=R67A
-ParamVariation69=ParameterName=Tolerance|VariantValue= 
-ParamDesignator69=R67A
-ParamVariation70=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator70=R67A
-ParamVariation71=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator71=R67A
-ParamVariation72=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator72=R67A
-Variation32=Designator=R66B|UniqueId=\FZJTGWNN\SICMTWFQ|Kind=0|AlternatePart==Value
-ParamVariation73=ParameterName=Value|VariantValue=0R
-ParamDesignator73=R66B
-ParamVariation74=ParameterName=Comment|VariantValue==Value
-ParamDesignator74=R66B
-ParamVariation75=ParameterName=Tolerance|VariantValue= 
-ParamDesignator75=R66B
-ParamVariation76=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator76=R66B
-ParamVariation77=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator77=R66B
-ParamVariation78=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator78=R66B
-Variation33=Designator=R66A|UniqueId=\OKDAMRGW\SICMTWFQ|Kind=0|AlternatePart==Value
-ParamVariation79=ParameterName=Value|VariantValue=0R
-ParamDesignator79=R66A
-ParamVariation80=ParameterName=Comment|VariantValue==Value
-ParamDesignator80=R66A
-ParamVariation81=ParameterName=Tolerance|VariantValue= 
-ParamDesignator81=R66A
-ParamVariation82=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator82=R66A
-ParamVariation83=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator83=R66A
-ParamVariation84=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator84=R66A
-Variation34=Designator=R65B|UniqueId=\FZJTGWNN\APJXKQQS|Kind=0|AlternatePart==Value
-ParamVariation85=ParameterName=Value|VariantValue=0R
-ParamDesignator85=R65B
-ParamVariation86=ParameterName=Comment|VariantValue==Value
-ParamDesignator86=R65B
-ParamVariation87=ParameterName=Tolerance|VariantValue= 
-ParamDesignator87=R65B
-ParamVariation88=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator88=R65B
-ParamVariation89=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator89=R65B
-ParamVariation90=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator90=R65B
-Variation35=Designator=R65A|UniqueId=\OKDAMRGW\APJXKQQS|Kind=0|AlternatePart==Value
-ParamVariation91=ParameterName=Value|VariantValue=0R
-ParamDesignator91=R65A
-ParamVariation92=ParameterName=Comment|VariantValue==Value
-ParamDesignator92=R65A
-ParamVariation93=ParameterName=Tolerance|VariantValue= 
-ParamDesignator93=R65A
-ParamVariation94=ParameterName=MF|VariantValue=Vishay / Dale
-ParamDesignator94=R65A
-ParamVariation95=ParameterName=Supplier Part Number 1|VariantValue=71-CRCW06030000Z0EBC
-ParamDesignator95=R65A
-ParamVariation96=ParameterName=MPN|VariantValue=CRCW06030000Z0EBC
-ParamDesignator96=R65A
-Variation36=Designator=C59|UniqueId=\TGBOTCQD\ESGFEOUL|Kind=1|AlternatePart= 
-Variation37=Designator=C72|UniqueId=\TGBOTCQD\MBBYGCRE|Kind=1|AlternatePart= 
-Variation38=Designator=R39|UniqueId=\TGBOTCQD\OXIOCUPD|Kind=1|AlternatePart= 
-ParamVariationCount=96
+ParamDesignator24=R65A
+Variation12=Designator=C59|UniqueId=\KHMKSWFC\LTPICKSO|Kind=1|AlternatePart= 
+Variation13=Designator=C72|UniqueId=\KHMKSWFC\OUGIELHI|Kind=1|AlternatePart= 
+Variation14=Designator=R39|UniqueId=\KHMKSWFC\GOLRWCUU|Kind=1|AlternatePart= 
+Variation15=Designator=C47A|UniqueId=\1KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation16=Designator=C47H|UniqueId=\8KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation17=Designator=C47G|UniqueId=\7KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation18=Designator=C47F|UniqueId=\6KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation19=Designator=C47E|UniqueId=\5KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation20=Designator=C47D|UniqueId=\4KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation21=Designator=C47C|UniqueId=\3KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation22=Designator=C47B|UniqueId=\2KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation23=Designator=D8|UniqueId=\KHMKSWFC\WGHNZQPT|Kind=1|AlternatePart= 
+ParamVariationCount=24
 
 [ProjectVariant3]
 UniqueID=026C8FF9-DA79-4D8D-9260-230522DB09FC
 Description=Buffer Single Clock Pair
 AllowFabrication=0
 ParameterCount=0
-VariationCount=30
+VariationCount=37
 Variation1=Designator=R3|UniqueId=\YNEKQYNE\UEWTKMRM|Kind=1|AlternatePart= 
 Variation2=Designator=R4|UniqueId=\YNEKQYNE\HIHXUOUS|Kind=1|AlternatePart= 
 Variation3=Designator=R6|UniqueId=\YNEKQYNE\WZHBQOPD|Kind=1|AlternatePart= 
-Variation4=Designator=R16B|UniqueId=\FZJTGWNN\LHAQICXJ|Kind=1|AlternatePart= 
-Variation5=Designator=R15B|UniqueId=\FZJTGWNN\YUPFXWHN|Kind=1|AlternatePart= 
-Variation6=Designator=R15A|UniqueId=\OKDAMRGW\YUPFXWHN|Kind=1|AlternatePart= 
-Variation7=Designator=R16A|UniqueId=\OKDAMRGW\LHAQICXJ|Kind=1|AlternatePart= 
-Variation8=Designator=R18A|UniqueId=\OKDAMRGW\FDSAHCXW|Kind=1|AlternatePart= 
-Variation9=Designator=R18B|UniqueId=\FZJTGWNN\FDSAHCXW|Kind=1|AlternatePart= 
-Variation10=Designator=R19A|UniqueId=\OKDAMRGW\UJQANQNH|Kind=1|AlternatePart= 
-Variation11=Designator=R19B|UniqueId=\FZJTGWNN\UJQANQNH|Kind=1|AlternatePart= 
-Variation12=Designator=R21A|UniqueId=\OKDAMRGW\MXBUAFIK|Kind=1|AlternatePart= 
-Variation13=Designator=R21B|UniqueId=\FZJTGWNN\MXBUAFIK|Kind=1|AlternatePart= 
-Variation14=Designator=R22A|UniqueId=\OKDAMRGW\VCJWWWYA|Kind=1|AlternatePart= 
-Variation15=Designator=R22B|UniqueId=\FZJTGWNN\VCJWWWYA|Kind=1|AlternatePart= 
-Variation16=Designator=R24A|UniqueId=\OKDAMRGW\AGDHGTVN|Kind=1|AlternatePart= 
-Variation17=Designator=R24B|UniqueId=\FZJTGWNN\AGDHGTVN|Kind=1|AlternatePart= 
-Variation18=Designator=R26B|UniqueId=\FZJTGWNN\KHDMRVFG|Kind=1|AlternatePart= 
-Variation19=Designator=R26A|UniqueId=\OKDAMRGW\KHDMRVFG|Kind=1|AlternatePart= 
-Variation20=Designator=R27B|UniqueId=\FZJTGWNN\RSFTFLGU|Kind=1|AlternatePart= 
-Variation21=Designator=R27A|UniqueId=\OKDAMRGW\RSFTFLGU|Kind=1|AlternatePart= 
-Variation22=Designator=R31A|UniqueId=\OKDAMRGW\JFSFBWTP|Kind=1|AlternatePart= 
-Variation23=Designator=R31B|UniqueId=\FZJTGWNN\JFSFBWTP|Kind=1|AlternatePart= 
-Variation24=Designator=R42A|UniqueId=\OKDAMRGW\CCTEPWRX|Kind=1|AlternatePart= 
-Variation25=Designator=R42B|UniqueId=\FZJTGWNN\CCTEPWRX|Kind=1|AlternatePart= 
-Variation26=Designator=R51A|UniqueId=\OKDAMRGW\HXBFLESY|Kind=1|AlternatePart= 
-Variation27=Designator=R51B|UniqueId=\FZJTGWNN\HXBFLESY|Kind=1|AlternatePart= 
-Variation28=Designator=C59|UniqueId=\TGBOTCQD\ESGFEOUL|Kind=1|AlternatePart= 
-Variation29=Designator=C72|UniqueId=\TGBOTCQD\MBBYGCRE|Kind=1|AlternatePart= 
-Variation30=Designator=R39|UniqueId=\TGBOTCQD\OXIOCUPD|Kind=1|AlternatePart= 
+Variation4=Designator=R16B|UniqueId=\2ETCGLXDP\HRVNRQLF|Kind=1|AlternatePart= 
+Variation5=Designator=R15B|UniqueId=\2ETCGLXDP\IEGXNVCT|Kind=1|AlternatePart= 
+Variation6=Designator=R15A|UniqueId=\1ETCGLXDP\IEGXNVCT|Kind=1|AlternatePart= 
+Variation7=Designator=R16A|UniqueId=\1ETCGLXDP\HRVNRQLF|Kind=1|AlternatePart= 
+Variation8=Designator=R22A|UniqueId=\1ETCGLXDP\DAGUVSXB|Kind=1|AlternatePart= 
+Variation9=Designator=R22B|UniqueId=\2ETCGLXDP\DAGUVSXB|Kind=1|AlternatePart= 
+Variation10=Designator=C59|UniqueId=\KHMKSWFC\LTPICKSO|Kind=1|AlternatePart= 
+Variation11=Designator=C72|UniqueId=\KHMKSWFC\OUGIELHI|Kind=1|AlternatePart= 
+Variation12=Designator=R39|UniqueId=\KHMKSWFC\GOLRWCUU|Kind=1|AlternatePart= 
+Variation13=Designator=C47A|UniqueId=\1KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation14=Designator=C47H|UniqueId=\8KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation15=Designator=C47G|UniqueId=\7KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation16=Designator=C47F|UniqueId=\6KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation17=Designator=C47E|UniqueId=\5KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation18=Designator=C47D|UniqueId=\4KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation19=Designator=C47C|UniqueId=\3KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation20=Designator=C47B|UniqueId=\2KMHNZGDM\QVTHMGXA|Kind=1|AlternatePart= 
+Variation21=Designator=R26A|UniqueId=\1ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation22=Designator=R26B|UniqueId=\2ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation23=Designator=R26C|UniqueId=\3ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation24=Designator=R26D|UniqueId=\4ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation25=Designator=R26E|UniqueId=\5ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation26=Designator=R26F|UniqueId=\6ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation27=Designator=R26G|UniqueId=\7ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation28=Designator=R26H|UniqueId=\8ETCGLXDP\JUMYJBJV|Kind=1|AlternatePart= 
+Variation29=Designator=R27A|UniqueId=\1ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation30=Designator=R27C|UniqueId=\3ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation31=Designator=R27B|UniqueId=\2ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation32=Designator=R27D|UniqueId=\4ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation33=Designator=R27E|UniqueId=\5ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation34=Designator=R27F|UniqueId=\6ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation35=Designator=R27G|UniqueId=\7ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation36=Designator=R27H|UniqueId=\8ETCGLXDP\CLVXOOYJ|Kind=1|AlternatePart= 
+Variation37=Designator=D8|UniqueId=\KHMKSWFC\WGHNZQPT|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -626,28 +496,28 @@ DocumentPath=Project Outputs for UltraZohm_ADC\NC Drill\UltraZohm_ADC.TXT
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Author
-Value=S.Lukas
+Name=ProjectRevision
+Value=Rev04
 
 [Parameter2]
-Name=AuthorParam
-Value=Simon Lukas
-
-[Parameter3]
-Name=Date
-Value=09/20
-
-[Parameter4]
-Name=ProjectAuthor
-Value=Simon Lukas
-
-[Parameter5]
 Name=ProjectName
 Value=UltraZohm_Analog_LTC2311-16
 
+[Parameter3]
+Name=ProjectAuthor
+Value=Simon Lukas
+
+[Parameter4]
+Name=Date
+Value=09/20
+
+[Parameter5]
+Name=AuthorParam
+Value=Simon Lukas
+
 [Parameter6]
-Name=ProjectRevision
-Value=Rev04
+Name=Author
+Value=S.Lukas
 
 [Configuration1]
 Name=Sources
@@ -983,6 +853,24 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=25|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Supplier Subtotal 1=Down
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Line #=54|Comment=118|Description=127|Designator=79|Quantity=67|Supplier Subtotal 1=120|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=108|Supplier 1=74|Supplier Part Number 1=143|Supplier Unit Price 1=127
+Configuration1_Name7=VisibleOrder_Base
+Configuration1_Item7=Line #=54|Comment=118|Description=127|Designator=79|Quantity=67|Supplier Subtotal 1=120|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=108|Supplier 1=74|Supplier Part Number 1=143|Supplier Unit Price 1=127
+Configuration1_Name8=VisibleOrder_Consolidated
+Configuration1_Item8=Line #=54|Comment=118|Description=81|Designator=79|Quantity=67|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=147|Supplier 1=74|Supplier Part Number 1=143|Supplier Unit Price 1=127|Supplier Subtotal 1=120|Quantity@No Buffer=101|Price@No Buffer=108|Quantity@Current Signal=125|Price@Current Signal=132|Quantity@Buffer Shared Conversion=181|Price@Buffer Shared Conversion=188|Quantity@Buffer Single Clock Pair=169|Price@Buffer Single Clock Pair=176
+Configuration1_Name9=VisibleOrder_Flat
+Configuration1_Item9=Line #=54|Comment=118|Description=81|Designator=79|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=147|Supplier 1=74|Supplier Part Number 1=143|Supplier Unit Price 1=127|Supplier Subtotal 1=120
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
@@ -1710,8 +1598,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=UltraZohm_ADC.SCHLIB
-ComponentDesignItemID0=LMK1C1104
-ComponentSymbolReference0=LMK1C1104
+ComponentDesignItemID0=LP2985A-18
+ComponentSymbolReference0=LP2985A-18
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1741,38 +1629,22 @@ ParameterName5=ComponentLink2URL
 ParameterUpdate5=1
 ParameterName6=Description
 ParameterUpdate6=1
-ParameterName7=Frequency
+ParameterName7=Library Reference
 ParameterUpdate7=1
-ParameterName8=Input
+ParameterName8=MF
 ParameterUpdate8=1
-ParameterName9=Library Reference
+ParameterName9=MPN
 ParameterUpdate9=1
-ParameterName10=Manufacturer
+ParameterName10=Package
 ParameterUpdate10=1
-ParameterName11=Manufacturer Part Number
+ParameterName11=Supplier 1
 ParameterUpdate11=1
-ParameterName12=Max Supply Voltage
+ParameterName12=Supplier Part Number 1
 ParameterUpdate12=1
-ParameterName13=Min Supply Voltage
-ParameterUpdate13=1
-ParameterName14=Mount
-ParameterUpdate14=1
-ParameterName15=Number of Outputs
-ParameterUpdate15=1
-ParameterName16=Number of Pins
-ParameterUpdate16=1
-ParameterName17=Package
-ParameterUpdate17=1
-ParameterName18=Propagation Delay
-ParameterUpdate18=1
-ParameterName19=Supplier 1
-ParameterUpdate19=1
-ParameterName20=Supplier Part Number 1
-ParameterUpdate20=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=FP-PW0008A-MFG
+ModelName0=SOT95P250X110-5N
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
