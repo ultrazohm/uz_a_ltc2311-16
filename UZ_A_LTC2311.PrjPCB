@@ -30,7 +30,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=
+OutputPath=Project Outputs for UltraZohm_ADC
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -91,7 +91,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QVPLBPCX
 
 [Document4]
-DocumentPath=Power.SchDoc
+DocumentPath=Power_Pos.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -159,7 +159,7 @@ GenerateClassCluster=0
 DocumentUniqueId=UJRVDYWO
 
 [Document8]
-DocumentPath=UltraZohm_ADC.Annotation
+DocumentPath=UZ_A_LTC2311.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -259,6 +259,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VWNPKLQL
+
+[Document14]
+DocumentPath=ADC_Reference.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VFVJKPBG
 
 [ProjectVariant1]
 UniqueID=D2DE88B5-0CEA-4C5F-A337-AD0007C5F62D
@@ -384,7 +401,7 @@ ParamVariationCount=24
 
 [ProjectVariant3]
 UniqueID=026C8FF9-DA79-4D8D-9260-230522DB09FC
-Description=Buffer Single Clock Pair
+Description=Standard
 AllowFabrication=0
 ParameterCount=0
 VariationCount=37
@@ -530,7 +547,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for UltraZohm_ADC
 
 [OutputGroup1]
 Name=Netlist Outputs
