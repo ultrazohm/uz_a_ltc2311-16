@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 15:01:27 On 28.04.2021
+
+Output: Pick_Place_JLC
+Type  : Pick Place
+From  : Variant [Standard] of PCB Document [UltraZohm_ADC.PcbDoc]
+   Generated File[#NAME_.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 15:01:29 On 28.04.2021

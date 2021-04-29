@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: C:\Users\ga92wum\git\UltraZohm\PCB\ultrazohm_analog_ltc2311-16_3vxx\UltraZohm_ADC.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.50
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=3.54
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
