@@ -503,28 +503,28 @@ Variation57=Designator=R16H|UniqueId=\8ETCGLXDP\HRVNRQLF|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Author
-Value=S.Lukas
+Name=ProjectRevision
+Value=Rev05
 
 [Parameter2]
-Name=AuthorParam
-Value=Simon Lukas
+Name=ProjectName
+Value=UZ_A_LTC2311-16
 
 [Parameter3]
-Name=Date
-Value=09/20
+Name=ProjectAuthor
+Value=E. Liegmann
 
 [Parameter4]
-Name=ProjectAuthor
-Value=Simon Lukas
+Name=Date
+Value=07/21
 
 [Parameter5]
-Name=ProjectName
-Value=UltraZohm_Analog_LTC2311-16
+Name=AuthorParam
+Value=E. Liegmann
 
 [Parameter6]
-Name=ProjectRevision
-Value=Rev04
+Name=Author
+Value=E. Liegmann
 
 [Configuration1]
 Name=Sources

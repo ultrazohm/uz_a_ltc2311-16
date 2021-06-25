@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [Standard] of PCB Document [UltraZohm_ADC.PcbDoc]
+   Generated File[Pick Place for UltraZohm_ADC(Standard).txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 17:42:09 On 25.06.2021
