@@ -195,6 +195,7 @@ Generating : Bottom
 
 
 Used DCodes :
+    D13
     D15
     D17
     D90
@@ -225,7 +226,7 @@ Generating : VCC
 
 Used DCodes :
     D17
-    D92
+    D94
     D97
     D101
     D102
