@@ -1,14 +1,14 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 17:33:35 On 04.07.2021
+Start Output Generation At 16:32:42 On 17.09.2021
 
-Output: Pick_Place_JLC
+Output: Generates pick and place files
 Type  : Pick Place
 From  : Variant [Standard] of PCB Document [UltraZohm_ADC.PcbDoc]
-   Generated File[PickPlace_UZ_A_LTC2311_Rev05.csv]
+   Generated File[PickPlace_UZ_A_LTC2311_Rev05.txt]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 17:33:38 On 04.07.2021
+Finished Output Generation At 16:32:44 On 17.09.2021

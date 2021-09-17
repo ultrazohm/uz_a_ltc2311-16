@@ -1,0 +1,19 @@
+** Profile: "THS4561-ac response"  [ C:\Users\a0232365\Documents\Tina\Modeling\THS4561\Release Folder\THS4561-PSPICE\ths4561-pspicefiles\ths4561\ac response.sim ] 
+
+** Creating circuit file "ac response.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../ths4561.lib" 
+* From [PSPICE NETLIST] section of C:\Users\a0232365\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+
+*Analysis directives: 
+.AC DEC 1000 100k 100MEG
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\THS4561.net" 
+
+
+.END

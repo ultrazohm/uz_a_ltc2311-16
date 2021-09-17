@@ -1,0 +1,56 @@
+
+**** 10/02/20 09:35:31 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "THS4561-AC Response"  [ C:\Users\a0232365\Documents\Tina\Modeling\THS4561\Release Folder\THS4561-PSPICE\ths4561-pspicef
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ac response.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "C:\Users\a0232365\Documents\Tina\Modeling\THS4561\Release Folder\THS4561-PSPICE\ths4561-pspicefiles\ths4561\ac response\ac re"
++ "sponse_profile.inc" 
+* Local Libraries :
+
+**** INCLUDING "ac response_profile.inc" ****
+.LIB    ".\ths4561.lib" 
+
+**** RESUMING "ac response.cir" ****
+.LIB "C:/Users/a0232365/Documents/Tina/Modeling/THS4561/Release Folder/ths4561-final/ths4561/ths4561.lib" 
+* From [PSPICE NETLIST] section of C:\Users\a0232365\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+
+*Analysis directives: 
+----------------------------------------------------------------------------------------------------------$
+ERROR(ORPSIM-16276): Can't find library
+.AC DEC 1000 100k 100MEG
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\THS4561.net" 
+
+
+
+**** INCLUDING THS4561.net ****
+* source THS4561
+R_R1         N01062 N01058  1.5k TC=0,0 
+R_R2         N00960 N00953  1.5k TC=0,0 
+R_R3         0 N00960  1.5k TC=0,0 
+R_R4         N01203 N01062  1.5k TC=0,0 
+X_U1         N00960 N01062 VCC VEE N01058 N00953 VOCM THS4561
+V_V1         N01203 0 DC 0Vdc AC 1Vac 
+V_V2         VCC 0 6Vdc
+V_V3         VEE 0 -6Vdc
+V_V4         VOCM 0 0Vdc
+R_R5         N00953 N01058  1k TC=0,0 
+
+**** RESUMING "ac response.cir" ****
+.END
+

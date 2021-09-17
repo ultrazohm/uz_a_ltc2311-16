@@ -1,0 +1,48 @@
+* C:\Users\ga92wum\git\UltraZohm\PCB\UZ_A_ltc2311-16\LTspice Simulations\AnalogLTC2311-16_with_THS4521\LTC2311_Rev05.asc
+C1 P001 ADCP 10p
+S1 ADCP V_ADCin+ SW_ACQ 0 mySW
+C2 P002 ADCM 10p
+S2 ADCM V_ADCin- SW_ACQ 0 mySW
+S3 ADCP N004 SW_CNV 0 mySW
+A1 SW_ACQ 0 0 0 0 SW_CNV 0 0 BUF
+S4 ADCM N004 SW_CNV 0 mySW
+V1 SW_ACQ 0 PULSE(0 5 171.5n 1n 1n 28.5n 500n)
+R1 V_outADCdriver N001 {Rop}
+R2 V_outADCdriverInv N003 {Rop}
+R3 V_ADCin+ V_outADCdriver 10
+R4 V_ADCin- V_outADCdriverInv 10
+C9 V_outADCdriverInv N003 {Cop}
+C10 V_outADCdriver N001 {Cop}
+R5 N003 Buffer+ {Rop}
+R6 N001 Buffer- {Rop}
+V4 5V 0 5.2
+XU1 N002 Buffer- Buffer- 5V -Vs LT6202
+XU2 N005 Buffer+ Buffer+ 5V -Vs LT6202
+R7 N002 Vin- 100
+R8 N005 Vin+ 100
+C3 N002 0 100p
+C4 N005 0 100p
+V2 -Vs 0 -5.4
+C5 V_ADCin+ V_ADCin- {Cdiff}
+C11 0 V_ADCin+ {Ccm}
+C12 V_ADCin- 0 {Ccm}
+V3 Vin+ 0 4.8 AC 1
+V5 Vin- 0 0.2
+R9 N004 P001 15
+R10 P002 N004 15
+V6 VCOM 0 2.5
+XU3 N001 N003 V_outADCdriverInv V_outADCdriver VCOM 5V 0 THS4561
+.model mySw SW(Ron=15 Vt=0.5)
+* SAR ADC input ADC 2 LTC2311 16 Bit 5 MSPS
+.tran 0 2000n 0 0.000000001
+.param Rop=1k
+.param Cop=10p
+* .param Rfilt=24.9 Ccm=47p Cdiff=470p
+* .param Rfilt=24.9 Ccm=18n Cdiff=12n
+* .ac dec 1000 10k 10Meg
+* .param Rfilt=15 Ccm=470p Cdiff=470p
+.param Rfilt=10 Ccm=1000p Cdiff=1000p
+.lib LTC2.LIB
+.lib ths4561.lib
+.backanno
+.end
