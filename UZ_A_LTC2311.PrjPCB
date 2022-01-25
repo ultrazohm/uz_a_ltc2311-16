@@ -446,7 +446,7 @@ UniqueID=026C8FF9-DA79-4D8D-9260-230522DB09FC
 Description=Standard
 AllowFabrication=0
 ParameterCount=0
-VariationCount=60
+VariationCount=64
 Variation1=Designator=R3|UniqueId=\YNEKQYNE\UEWTKMRM|Kind=1|AlternatePart= 
 Variation2=Designator=R4|UniqueId=\YNEKQYNE\HIHXUOUS|Kind=1|AlternatePart= 
 Variation3=Designator=R6|UniqueId=\YNEKQYNE\WZHBQOPD|Kind=1|AlternatePart= 
@@ -507,31 +507,35 @@ Variation57=Designator=R30|UniqueId=\UNGXLDZA\MCLYZVHO|Kind=1|AlternatePart=
 Variation58=Designator=R36|UniqueId=\KHMKSWFC\ZNQRXVFM|Kind=1|AlternatePart= 
 Variation59=Designator=C73|UniqueId=\KHMKSWFC\IQQGKMEU|Kind=1|AlternatePart= 
 Variation60=Designator=U12|UniqueId=\YNEKQYNE\WGVZYVRF|Kind=1|AlternatePart= 
+Variation61=Designator=R42|UniqueId=\YNEKQYNE\XXHIRAXT|Kind=1|AlternatePart= 
+Variation62=Designator=R40|UniqueId=\YNEKQYNE\WHXBJZVY|Kind=1|AlternatePart= 
+Variation63=Designator=R37|UniqueId=\YNEKQYNE\IBCQCNBI|Kind=1|AlternatePart= 
+Variation64=Designator=R33|UniqueId=\YNEKQYNE\VAZJQAPD|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
-Name=ProjectRevision
-Value=Rev06
-
-[Parameter2]
-Name=ProjectName
-Value=UZ_A_LTC2311-16
-
-[Parameter3]
-Name=ProjectAuthor
+Name=Author
 Value=E. Liegmann
 
-[Parameter4]
-Name=Date
-Value=03/22
-
-[Parameter5]
+[Parameter2]
 Name=AuthorParam
 Value=E. Liegmann
 
-[Parameter6]
-Name=Author
+[Parameter3]
+Name=Date
+Value=03/22
+
+[Parameter4]
+Name=ProjectAuthor
 Value=E. Liegmann
+
+[Parameter5]
+Name=ProjectName
+Value=UZ_A_LTC2311-16
+
+[Parameter6]
+Name=ProjectRevision
+Value=Rev06
 
 [Configuration1]
 Name=Sources

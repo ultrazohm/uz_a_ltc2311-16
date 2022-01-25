@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 21:03:19 On 25.01.2022
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [Standard] of Project [UZ_A_LTC2311.PrjPCB]
+   Generated File[Bill of Materials-UZ_A_LTC2311(Standard).xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 21:03:32 On 25.01.2022
