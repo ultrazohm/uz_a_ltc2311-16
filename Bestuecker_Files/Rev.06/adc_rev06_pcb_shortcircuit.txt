@@ -1,0 +1,25 @@
+- 6.5V pad = 2.8V
+- R9 = 21B = 1,62k passt 
+- R11 = 02B = 1,02k passt
+
+L13 ausgelötet -> 6.5V rail passt -> U9 
+- R24 = 01C = 10k passt
+- R21 = 54C = 35,7k passt
+
+L13 rein - L14 raus 
+- U9 läuft und gibt 5.4V aus 
+- OVCC =  1V  fehler!
+- 1.8V TP passt 
+
+L7 raus, L14 raus -> VCOM (an THS) von 2.5V abgetrennt
+- OVCC = 2.5V passt 
+
+L14 einlöten und Wärmebildkamera draufhalten
+- Vref = 0.8V
+
+L4 ausgelötet -> Vref abgeklemmt 
+- Vref = 0V 
+- 6.5V = 2.7V
+
+Vergessen zu pouren -> 
+1 Via hat Kurzschluss zwischen Vcc+ und GND
