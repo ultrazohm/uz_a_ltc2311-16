@@ -21,5 +21,13 @@ L4 ausgelötet -> Vref abgeklemmt
 - Vref = 0V 
 - 6.5V = 2.7V
 
-Vergessen zu pouren -> 
-1 Via hat Kurzschluss zwischen Vcc+ und GND
+Vergessen zu pouren vor Output Generierung -> 
+1 Via unter "U12" Silk Screen hat Kurzschluss zwischen Vcc+ und GND verursacht
+
+Nachdem aufgebohrt wurde, sind alle Spannungsrails korrekt
+
+- Gebohrte ADC Karte die schon Spannung gesehen hatte und an der wir Fehler gesucht haben hat nicht funktioniert im UZ. Werte waren eingefroren bei 0.
+
+- Wir haben eine frische Karte aufgebohrt. Bei dieser haben 7 Kanäle funktioniert (3,3 V angelegt und im UZ so ausgelesen. Kanal B5 hat im idle immer -0,48 v angezeigt, beim Anlegen von 3V3 +0,5V
+
+- Wir haben es nicht mit weiteren Karten getestet.
