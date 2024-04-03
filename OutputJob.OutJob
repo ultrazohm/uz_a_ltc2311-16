@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=OutputJob.OutJob
 Description=
-TargetOutputMedium=Pick_and_Place
+TargetOutputMedium=BOM
 VariantName=Standard
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Ricoh_printfellow
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -175,7 +175,7 @@ OutputName6=Bill of Materials
 OutputCategory6=Report
 OutputDocumentPath6=
 OutputVariantName6=Standard
-OutputEnabled6=0
+OutputEnabled6=1
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
@@ -191,15 +191,17 @@ PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration6_Name1=ColumnNameFormat
 Configuration6_Item1=CaptionAsName
 Configuration6_Name2=General
-Configuration6_Item2=OpenExported=False|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\ga92wum\git\UltraZohm\PCB\PCB_Libraries\templates\BOM\BOM_Template_THN.XLT|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1602|FormHeight=1029|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration6_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=D:\Projekte\UltraZohm\Work_Altium\Templates\templates\BOM\BOM_Template_THN.XLT|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1602|FormHeight=1010|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration6_Name3=GroupOrder
 Configuration6_Item3=Comment=True|MPN=True|Footprint=True
 Configuration6_Name4=OutputConfigurationParameter1
 Configuration6_Item4=??
-Configuration6_Name5=VisibleOrder
-Configuration6_Item5=Quantity=62|Comment=113|Designator=106|MF=114|MPN=128|Value=82|Description=76|Footprint=76|Package=76|Voltage=57|Dielectric=70|Supplier 1=73|Supplier Part Number 1=94|Supplier 2=62|Supplier Part Number 2=54|Supplier 3=46|Supplier Part Number 3=65|Fitted=100
-Configuration6_Name6=VisibleOrder_Flat
+Configuration6_Name5=SortOrder
+Configuration6_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration6_Name6=VisibleOrder
 Configuration6_Item6=Quantity=62|Comment=113|Designator=106|MF=114|MPN=128|Value=82|Description=76|Footprint=76|Package=76|Voltage=57|Dielectric=70|Supplier 1=73|Supplier Part Number 1=94|Supplier 2=62|Supplier Part Number 2=54|Supplier 3=46|Supplier Part Number 3=65|Fitted=100
+Configuration6_Name7=VisibleOrder_Flat
+Configuration6_Item7=Quantity=62|Comment=113|Designator=106|MF=114|MPN=128|Value=82|Description=76|Footprint=76|Package=76|Voltage=57|Dielectric=70|Supplier 1=73|Supplier Part Number 1=94|Supplier 2=62|Supplier Part Number 2=54|Supplier 3=46|Supplier Part Number 3=65|Fitted=100
 OutputType7=ExportSTEP
 OutputName7=Export STEP
 OutputCategory7=Export
@@ -262,7 +264,7 @@ OutputName10=Generates pick and place files
 OutputCategory10=Assembly
 OutputDocumentPath10=
 OutputVariantName10=
-OutputEnabled10=1
+OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=0
@@ -650,7 +652,7 @@ ShowComponentParameters4=1
 GlobalBookmarks4=0
 PDFACompliance4=Disabled
 PDFVersion4=Default
-OutputFilePath5=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_A_ltc2311-16\Project Outputs for UZ_A_LTC2311\Rev05\
+OutputFilePath5=D:\Projekte\UltraZohm\Work_Altium\uz_a_ltc2311-16\Project Outputs for UZ_A_LTC2311\Rev07\
 ReleaseManaged5=1
 OutputBasePath5=Project Outputs for UZ_A_LTC2311
 OutputPathMedia5==ProjectRevision
@@ -736,7 +738,7 @@ RelativeOutputPath3=\=ProjectRevision\
 OpenOutputs3=1
 RelativeOutputPath4=\
 OpenOutputs4=0
-RelativeOutputPath5=C:\Users\ga92wum\git\UltraZohm\PCB\UZ_A_ltc2311-16\Project Outputs for UZ_A_LTC2311\Rev05\
+RelativeOutputPath5=D:\Projekte\UltraZohm\Work_Altium\uz_a_ltc2311-16\Project Outputs for UZ_A_LTC2311\Rev07\
 OpenOutputs5=1
 AddToProject5=0
 TimestampFolder5=0
