@@ -5,8 +5,8 @@ D:\Projekte\UltraZohm\Work_Altium\uz_a_ltc2311-16\Project Outputs for UZ_A_LTC23
 File Design Information:
 
 Date:       09.04.24
-Time:       20:13
-Revision:   bfcff3a7e84e1277b06fafc0b1159d8e8f7ec4df
+Time:       20:31
+Revision:   a41ec689fa76e952609187587bb93022c0ccf4ee
 Variant:    Standard
 Units used: mm
 
