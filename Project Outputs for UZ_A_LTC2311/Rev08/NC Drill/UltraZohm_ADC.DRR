@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: UltraZohm_ADC.PcbDoc   15.10.2024  22:19:59
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top to Bottom
+ASCII RoundHoles File : UltraZohm_ADC.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             118       PTH        28.91inch (734.34mm)
+T2      12mil (0.3mm)                                             Round             441       PTH        76.72inch (1948.71mm)
+T3      35mil (0.9mm)                                             Round             16        PTH        1.66inch (42.20mm)
+T4      40mil (1.016mm)                                           Round             16        PTH        1.50inch (38.10mm)
+T5      63mil (1.6mm)                                             Round             2         PTH        1.26inch (32.00mm)
+T6      39mil (1mm)             +/-3mil (0.076mm)                 Round             2         NPTH       1.11inch (28.20mm)
+T7      128mil (3.25mm)                                           Round             2         NPTH       1.12inch (28.45mm)
+T8      134mil (3.4mm)          +/-3mil (0.076mm)                 Round             2         NPTH       3.50inch (89.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              599
+
+Total Processing Time (hh:mm:ss) : 00:00:00
