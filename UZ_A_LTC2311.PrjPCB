@@ -526,7 +526,7 @@ ParamVariationCount=0
 
 [Parameter1]
 Name=ProjectRevision
-Value=Rev08
+Value=Rev09
 
 [Parameter2]
 Name=ProjectName
@@ -538,7 +538,7 @@ Value==Author
 
 [Parameter4]
 Name=Date
-Value=10/24
+Value=12/24
 
 [Parameter5]
 Name=AuthorParam
